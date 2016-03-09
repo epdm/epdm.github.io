@@ -33,4 +33,4 @@ output:
 	cat snippets/top.html-fragment    >> snippets/index.html
 	cat snippets/webpage.html-snippet >> snippets/index.html
 	cat snippets/bottom.html-fragment >> snippets/index.html
-	cp snippets/index.html webpage.html	
+	cp snippets/index.html index.html
