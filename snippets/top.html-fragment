@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>TQM</title>
+    <!-- http://www.colorhexa.com/9b6d92 -->
+    <style type="text/css">
+      html {
+        cursor: url('images/ajw2.gif'), auto;
+      }
+      body {
+        width:  60em;
+        margin: 0 auto;
+        background-color: #C1DAD6;
+      }
+      a {
+        text-decoration: none;
+        color: #9b6d92;
+      }
+      input {
+        display: block;
+        margin: 1em;
+      }
+      .toc {
+        padding: 0 1em;
+        margin:  0 1em;
+        border: 1px solid #ccc;
+        background-color: #F5FAFA;
+        box-shadow: 0px 2px 2px -2px #000;
+      }
+      .quiz {
+        padding: 2em;
+        margin: 1em 1em 2em;
+        border: 1px solid #ccc;
+        background-color: #F5FAFA;
+        box-shadow: 0px 2px 2px -2px #000;
+      }
+    </style>
+
+    <meta charset="utf-8" />
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/quiz.js"></script>
+  </head>
+
+  <body>
+    <h1>Total Quality Management</h1>
+    <h6>
+      <em>
+        Owen Jarvie, Kahtan Miyasar, Ivo Dimitrov, Blake Hawkins, Helen
+        Gallagher
+      </em>
+    </h6>
+    <div class="toc">
+      <h3>Table of Contents</h3>
+      <ul>
+        <li><a href="#definition-of-quality">Definition of Quality</a></li>
+        <li><a href="#six-sigma">Six Sigma</a></li>
+        <li><a href="#relationship-between-quality-and-reliability">Relationship Between Quality and Reliability</a></li>
+        <li><a href="#impact-of-quality-on-cycle-time-and-cost">Impact of Quality on Cycle Time and Cost</a></li>
+        <li><a href="#iso-9000">ISO 9000</a></li>
+        <li><a href="#check-sheets">Check Sheets</a></li>
+        <li><a href="#pareto">Pareto</a></li>
+        <li><a href="#fishbone-ishikawa-diagrams">Fishbone Ishikawa Diagrams</a></li>
+        <li><a href="#cause-screening">Cause Screening</a></li>
+        <li><a href="#teamwork">Teamwork</a></li>
+        <li><a href="#multi-voting">Multi Voting</a></li>
+        <li><a href="#statistical-process-control">Statistical Process Control</a></li>
+        <li><a href="#taguchi">Taguchi</a></li>
+        <li><a href="#design-of-experiments">Design of Experiments</a></li>
+        <li><a href="#software-improvement-tools">Software Improvement Tools</a></li>
+        <li><a href="#references">References</a></li>
+      </ul>
+    </div>

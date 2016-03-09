@@ -1,0 +1,337 @@
+
+Definition of Quality
+---------------------
+
+Quality is a somewhat abstract, subjective quality. Consumers may tend to focus
+on the eventual specification quality of a product/service, or how it compares
+with the competing companies in the marketplace. However, on the contrary,
+producers might measure the conformance quality, or the degree to which the
+product/service was produced correctly. The producer of a product may focus on
+process variation minimisation, to achieve uniformity amongst and between
+batches.
+
+Six Sigma
+---------
+
+6 sigma represents a set of techniques/tools for implementing process
+improvement. This improvement is achieved through identifying and subsequently
+removing the causes of defects, thus minimising variability in manufacturing and
+business processes. A six sigma process is ome in wich 99.99966% of all
+opportunities to produce some feature or part are statistically expected to be
+free of defects (3.4 defective features per million opportunities). A defect in
+this sense can be defined as any variation of a required characteristic of the
+product for its parts, which is far enough removed from its nominal value to
+precent the product from fulfilling the physical and functional requirements of
+the customer.
+
+Normal distribution curves are symmetrical about the mean value (?), with the
+total area under the curve equating to one. If a process is classified as 3
+sigma, 99.7% of outputs are defect free. Mean is the central tendency of the
+process, or the average of all values within the population. The standard
+deviation (?) is a measure of dispersion or variability.
+
+
+
+The upper specification limit (USL) and the lower specification limit (LSL) set
+permissible limits for the process variation. For example, the USL and LSL of a
+process may be set at 3 and -3, thus yielding a process which si 99.7% defect
+free. USL represents a value designating an upper limit above which the process
+or characteristic performance is unacceptable. In the converse case, the LSL
+represents a value designating a lower limit, below which the process or
+characteristic performance is unacceptable.
+
+The relationship between yield, variability and specification limits is that
+essentially the specification limits provide the permissible process variations.
+Minimising variability therefore inherently leads to a better yield, as the
+probability of defects occurring is substantially mitigated.  Cp and Cpk
+represent metrics of process quality. Cp is a measure of how capable the process
+is of producing the required process characteristic. Cp is known as the
+capability index, or design margin, and is calculated using the following:
+
+Cpk is a measure of actual performance which takes the actual mean into account.
+Cpk is equal to Cp when the process mean is equal to the target, or nominal
+value. Cpk essentially accounts for the process mean not hitting the target
+value. The following calculations can be used to determine Cpk.
+
+
+Poisson distribution describes the probability distribution of an event
+occurring with respect to time, or space. The eventual process yield can be
+calculated using Poisson's formula using the following, where dpu is the
+measured defects per unit.
+
+As an example if average dpu=1, the probability of having a device with no
+defects can be calculated as:
+
+Relationship Between Quality and Reliability
+--------------------------------------------
+
+Quality assures the product will work after assembly. Whereas reliability
+provides the probability that the design will perform its intended function for
+a designated period of time under specified conditions. Engineering process
+reliability is the fundamental concept that is meant to anticipate quality
+failures over the life cycle of a product. Variation of the process output may
+affect both quality and reliability. Controlling reliability is much more
+complex and cannot be controlled by a standard "quality" (Six Sigma) approach,
+as they need a systems engineering approach. Quality is a snapshot at the start
+of life and mainly related to control of lower level product specifications and
+reliability is (as part of systems engineering) more of a system level motion
+picture of the day-by-day operation for many years. Time zero defects are
+manufacturing mistakes that escaped quality control, whereas, the additionald
+effects that appear over time are 'reliability defects'.
+
+Impact of Quality on Cycle Time and Cost
+----------------------------------------
+
+Lorem ipsum.
+
+
+ISO 9000
+--------
+
+* The ISO 9000 is family of standards that gives requirements for an organization's quality management system (QMS).
+* It can be adopted to help ensure organisations meet the standards of customers and stakeholders whilst meeting the statutory and regulatory requirements of products
+* Based on eight quality management principles:
+1. Customer focus
+2. Leadership
+3. Involvement of people
+4. Process approach
+5. System approach to management
+6. Continual improvement
+7. Factual approach to decision making
+8. Mutually beneficial supplier relationships
+* Global adoption of the ISO 9000 standard is growing annually - the number of global ISO certified organisations recorded in the world by the end of 2014 was 1,138,155, up from 409,421 by the end of 2000.
+* The reason for the global adoption can be attributed to a number of reasons:
+1. Creates a more efficient, effective operation
+2. Increases customer satisfaction and retention
+3. Reduces audits
+4. Enhances marketing
+5. Improves employee motivation, awareness, and morale
+6. Promotes international trade
+7. Increases profit
+8. Reduces waste and increases productivity
+9. Common tool for standardization
+Case studies to support these claims can be found here: <http://www.bsigroup.com/en-GB/iso-9001-quality-management/case-studies/>
+
+
+
+Check Sheets
+------------
+
+* A check sheet is a form used to collect data in real time at the location where the data is generated.
+* Advantages of check sheets:
+1. A quick, very easy and efficient means for recording desired information
+2. Information gathered can be either qualitative or quantitative.
+* Check sheets are generally be used to:
+1. Quantify defects by type, location, and cause (e.g. from a machine or worker)
+2. Keep track of the completion of steps in a multi-step procedure (i.e. be used as a checklist)
+3. Check the shape of the probability distribution of a process (Figure 1)
+
+
+Pareto
+------
+
+The Pareto principle (also known as the 80 - 20 rule, the law of the vital few, and the principle of factor sparsity) states that, for many events, roughly 80% of the effects come from 20% of the causes.
+
+Software engineering examples:
+
+Microsoft noted that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in a given system would be eliminated.
+
+In load testing, it is common practice to estimate that 80% of the traffic occurs during 20% of the time.
+
+In software engineering, Lowell Arthur expressed a corollary principle: "20 percent of the code has 80 percent of the errors. Find them, fix them!"
+
+The term 80 - 20 is only a shorthand for the general principle at work. In individual cases, the distribution could just as well be, say, 80 - 10 or 80 - 30. There is no need for the two numbers to add up to the number 100, as they are measures of different things. 
+
+Adding up to 100 leads to a nice symmetry. For example, if 80% of effects come from the top 20% of sources, then the remaining 20% of effects come from the lower 80% of sources. This is called the "joint ratio", and can be used to measure the degree of imbalance: a joint ratio of 96:4 is very imbalanced, 80:20 is significantly imbalanced, 70:30 is moderately imbalanced (Gini index: 40%), and 55:45 is just slightly imbalanced.
+
+
+Fishbone Ishikawa Diagrams
+--------------------------
+
+Ishikawa diagrams (also called fishbone diagrams) are causal diagrams that show
+the causes of a specific event. Common uses of the Ishikawa diagram are product
+design and quality defect prevention to identify potential factors causing an
+overall effect. Each cause or reason for imperfection is a source of variation.
+Causes are usually grouped into major categories to identify these sources of
+variation. The categories typically include:
+
+* People: Anyone involved with the process
+* Methods: How the process is performed and the specific requirements for doing it, such as policies, procedures, rules, regulations and laws
+* Machines: Any equipment, computers, tools, etc. required to accomplish the job
+* Materials: Raw materials, parts, pens, paper, etc. used to produce the final product
+* Measurements: Data generated from the process that are used to evaluate its quality
+* Environment: The conditions, such as location, time, temperature, and culture in which the process operates
+
+Ishikawa diagram example
+
+There have been identified topics for fishbone diagram cause classes in different areas of development. They are grouped into easily remembered sets. Examples are:
+The 5 M's (used in manufacturing industry): Machine (technology), Method (process), Material (Includes Raw Material, Consumables and Information.), Man Power (physical work)/Mind Power, Measurement (Inspection)
+The 8 P's (used in marketing industry): Product/Service, Price, Place, Promotion, People/personnel, Process, Physical Evidence, Publicity
+The 8 P's are primarily used in service marketing.
+The 4 S's (used in service industry): Surroundings, Suppliers, Systems, Skills
+
+
+Cause Screening
+---------------
+
+The screening tools eliminate brainstorming and hypothesizing at the beginning
+of a project. The project team first makes non-invasive observations of the
+operation. They ignore everything in the middle, and only compare examples of
+the very best and very worst outputs, searching for consistent differences. The
+guidelines are simple:
+
+Any factor that is consistently different when the best and worst outputs occur
+is deemed critical, and the team pursues it.
+
+Any factor that is not consistently different is deemed non-critical, and the
+team ignores it.
+
+With this screening process, practitioners non-invasively observe and review
+data from the existing operation, and are usually able to separate the critical
+and non-critical factors more quickly than with the traditional trial-and-error
+approach.
+
+
+Teamwork
+--------
+
+Teamwork should encompass the following:
+
+* Knowledge
+* Design
+* Redesign
+
+Teamwork is someting that requires training.
+
+Product owners should not delegate and control every aspect, as this can stifle
+teamwork and involvement.
+
+Constant improvement is the responsibility of managers. Most causes of low
+quality and productivity are due to issues at this level.
+
+* Can work with an internal consultant.
+* Partnering concept requires a new corporate culture valuing participative
+management and teamwork. Ford boosted productivity by 28% in this way.
+
+Related aspects:
+
+* Collaboration
+* Communication, including inter-department
+* Involvement
+* Training teamwork, along with tools and techniques of quality control, and
+philosophy of quality culture
+
+Contrast to:
+
+* Hierarchical management
+* Individual performance evaluations
+
+![](images/teamwork-1.png "Kondo Pillars")
+
+Multi-voting
+------------
+
+Allow a group to narrow down a list of options into a manageable size for
+further consideration. Useful for initiating a selection process after
+brainstorming.
+
+Sometimes referred to as `N/3` voting - for N options, each member of the group
+selects `N/3` of the options as a means for partial-ordering the options by
+importance.
+
+Statistical Process Control
+---------------------------
+
+Initially developed during the second world war. Uses a process of (physical)
+inspection to separate good products from bad.
+
+* Developing control charts: a production process is in statistical control if
+the chart's measurements vary (randomly in some distribution) within the control
+limits
+* Accepting sampling methods
+
+The achievement of quality should not be considered as separate from the
+achievement of production.
+
+Identify product that is beyond reasonable quality control by many (3?) standard
+deviations. This product has been produced by unusual circumstances - and that
+should be traced and eliminated.
+
+Argument: quality is conformance to requirement and can only be measured by the
+cost of non-conformance.
+
+Taguchi
+-------
+
+Tahuchi defines quality as the loss imparted by the product to society from the time the product is shipped. Quality loss occurs when a product deviates from target or nominal values.
+Statistical methods developed to improve the quality of manufactures goods. Three principal contributions to statistics:
+1. Specific loss function
+L(x) = k(x-N)2
+<http://www.slideshare.net/MentariPagi4/tqm-taguchi>
+
+2. The philosophy of off-line quality control
+3. Innovation in the design of experiments
+Taguchi believed the best opportunity to eliminate variation is during the design of a product and its manufacturing process. Therefore he developed a strategy for quality engineering. There are 3 stages:
+1. System Design - Conceptual level
+2. Parameter (measure) design - nominal values of the various dimensions and design parameters need to be set. Robustification.
+3. Tolerance design - With a successfully completed parameter design, and an understanding of the effect that the various parameters have on performance, resources can be focused on reducing and controlling variation in the critical few dimensions.
+TAGUCHI ON QUALITY: Quality has been defined by many as; "being within specifications," "zero defects," or "customer satisfaction." However, these definitions do not offer a method of obtaining quality or a means of relating quality to cost. Taguchi proposes a holistic view of quality which relates quality to cost, not just to the manufacturer at the time of production, but to the customer and society as a whole (Phadke, 1989). Taguchi defines quality as, "The quality of a product is the (minimum) loss imparted by the product to the society from the time product is shipped" (Bryne and Taguchi, 1986). This economic loss is associated with losses due to rework, waste of resources during manufacture, warranty costs, customer complaints and dissatisfaction, time and money spent by customers on failing products, and eventual loss of market share. Figure-1 illustrates the loss function and how it relates to the specification limits. Presented at the 1991 Annual Conference of the International Society of Parametric Analysts. - 2 - LSL USL LOSS $ TARGET Figure-1; The Quadratic Loss Function When a critical quality characteristic deviates from the target value, it causes a loss. In other words, variation from target is the antithesis of quality. Quality simply means no variability or very little variation from target performance (Di Lorenzo, 1990). An examination of the loss function shows that variability reduction or quality improvement drives cost down. Lowest cost can only be achieved at zero variability from target. Continuously pursuing variability reduction from the target value in critical quality characteristics is the key to achieve high quality and reduce cost. Taguchi's quadratic loss function is the first operational joining of cost of quality and variability of product that allows design engineers to actually calculate the optimum design based on cost analysis and experimentation with the design (Teicholz, 1987).
+<http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20040121019.pdf>
+
+
+Design of Experiments
+---------------------
+
+A method used to maximize the information obtained from experimental data through very few trails or runs.
+1. Full factorial
+2. Fractional factorial
+3. Taguchi Methods
+4. RSM (Response Surface Methodology)
+Benefits of DOE
+1.  Quick, economical and efficient method to identify most significant input factors
+2. Simultaneous trials with multiple control factors instead of one variable at a time.
+3. Gives interaction effects of control factors / input factors.
+4. Less number of trials required to get process insight.
+5. Impact of control factors on response can be easily measured.
+6. Explore relationship of response and control factors.
+This is an interesting read as it explains why engineers are not using DoE and the barriers faced by DoE methods
+<http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846>
+
+Software Improvement Tools
+--------------------------
+
+Not exactly sure what this title means. Therefore I have just looked at software
+you can use to use to improve TQM. In general I found a lot of articles which
+seemed to mention the things below however I have noticed that these are being
+covered by other people in the group.
+
+* Cause and Effect Diagram
+* Checksheet
+* Control Chart
+* Graphs (Run Chart)
+* Histogram
+* Pareto Chart
+* Scatter Diagram
+
+
+
+* Pathmaker: Seems to be a tool to help your team work more effectively, and not
+anything to do with DoE I think the following two articles cover what this
+section is looking for but I want to talk to Anthony about this.
+* <http://www.emeraldinsight.com/doi/pdfplus/10.1108/09544789610125333>
+
+
+References
+----------
+
+* Total Quality Management: Text, Cases, and Readings, Third Edition; Joel E.
+Ross, Susan Perry, 1999
+* Fundamentals of Total Quality Management; Jens J. Dahlgaard, Kai Kristensen,
+Gopal K. Kanji, 1998
+* Total Quality Management as Competitive Advantage: A Review and Empirical
+Study; Thomas C. Powell, 1995
+* Total quality management implementation frameworks: Comparison and review;
+Sha'Ri Mohd Yusof, Elaine Aspinwall, 2000
+* Multivoting; University of Kentucky, Program and Staff Development,
+<https://psd.ca.uky.edu/files/multivot.pdf>
+* Multi-Voting, goLeanSixSigma, <https://goleansixsigma.com/multi-voting/>

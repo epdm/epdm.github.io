@@ -1,0 +1,14 @@
+
+  <div class="quiz">
+  	<p>What does TQM Stand for?</p>
+
+  	<input type="text" id="q1" placeholder="" />
+  	
+  	<p>Who runs this course?</p>
+
+  	<input type="text" id="q2" placeholder="" />
+  	
+  	<a href="#" id="submit">Submit Quiz</a>
+  </div>
+  </body>
+</html>
