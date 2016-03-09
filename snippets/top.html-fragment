@@ -3,71 +3,155 @@
 <html>
   <head>
     <title>TQM</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans'
+          rel='stylesheet'
+          type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Forum'
+          rel='stylesheet'
+          type='text/css' />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
     <!-- http://www.colorhexa.com/9b6d92 -->
     <style type="text/css">
       html {
         cursor: url('images/ajw2.gif'), auto;
       }
+
       body {
-        width:  60em;
-        margin: 0 auto;
-        background-color: #C1DAD6;
+        background-color: #eee;
+        font-family: 'Open Sans', sans-serif;
       }
+
       a {
         text-decoration: none;
         color: #9b6d92;
       }
+
+      button {
+        margin: 0.5em 0;
+      }
+
+      div {
+        width: 60em;
+        margin: 0 auto;
+      }
+
+      h1 {
+        font-family: 'Forum', serif;
+        text-align: center;
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+      }
+
+      h6 {
+        text-align: center;
+      }
+
       input {
         display: block;
         margin: 1em;
       }
+
+      select {
+        margin: 0.5em 0 1em;
+      }
+
+      .flat {
+        width: 100%;
+        padding: 1em 0;
+        margin: 2em 0;
+      }
+
+      .flat-body {
+        background-color: #C1DAD6;
+      }
+
+      .flat-footer {
+        background-color: #766d9b;
+        margin: -2em 0 0;
+      }
+
+      .flat-title {
+        background-color: #F5FAFA;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+        margin: -2em 0 0;
+        padding: 4em 0;
+      }
+
+      .flat-toc {
+      }
+
+      .flat-quiz {
+        margin-top: -4em;
+      }
+
+      .footer {
+        width: 55em;
+        margin: 0 auto;
+        padding: 1em;
+        color: #eee;
+        line-height: 300%;
+        font-size: 0.8em;
+      }
+
       .toc {
         padding: 0 1em;
         margin:  0 1em;
-        border: 1px solid #ccc;
-        background-color: #F5FAFA;
-        box-shadow: 0px 2px 2px -2px #000;
+        width: 60em;
+        margin: 0 auto;
       }
+
       .quiz {
         padding: 2em;
         margin: 1em 1em 2em;
-        border: 1px solid #ccc;
-        background-color: #F5FAFA;
-        box-shadow: 0px 2px 2px -2px #000;
+        width: 60em;
+        margin: 0 auto;
       }
     </style>
 
     <meta charset="utf-8" />
     <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/quiz.js"></script>
   </head>
 
   <body>
-    <h1>Total Quality Management</h1>
-    <h6>
-      <em>
-        Owen Jarvie, Kahtan Miyasar, Ivo Dimitrov, Blake Hawkins, Helen
-        Gallagher
-      </em>
-    </h6>
-    <div class="toc">
-      <h3>Table of Contents</h3>
-      <ul>
-        <li><a href="#definition-of-quality">Definition of Quality</a></li>
-        <li><a href="#six-sigma">Six Sigma</a></li>
-        <li><a href="#relationship-between-quality-and-reliability">Relationship Between Quality and Reliability</a></li>
-        <li><a href="#impact-of-quality-on-cycle-time-and-cost">Impact of Quality on Cycle Time and Cost</a></li>
-        <li><a href="#iso-9000">ISO 9000</a></li>
-        <li><a href="#check-sheets">Check Sheets</a></li>
-        <li><a href="#pareto">Pareto</a></li>
-        <li><a href="#fishbone-ishikawa-diagrams">Fishbone Ishikawa Diagrams</a></li>
-        <li><a href="#cause-screening">Cause Screening</a></li>
-        <li><a href="#teamwork">Teamwork</a></li>
-        <li><a href="#multi-voting">Multi Voting</a></li>
-        <li><a href="#statistical-process-control">Statistical Process Control</a></li>
-        <li><a href="#taguchi">Taguchi</a></li>
-        <li><a href="#design-of-experiments">Design of Experiments</a></li>
-        <li><a href="#software-improvement-tools">Software Improvement Tools</a></li>
-        <li><a href="#references">References</a></li>
-      </ul>
+    <div class="flat flat-title">
+      <div class="title">
+        <h1>Total Quality Management</h1>
+        <div>
+          <h6>
+            <em>
+              Owen Jarvie, Kahtan Miyasar, Ivo Dimitrov, Blake Hawkins, Helen
+              Gallagher
+            </em>
+          </h6>
+        </div>
+      </div>
     </div>
+    <div class="flat flat-toc">
+      <div class="toc">
+        <h3>Table of Contents</h3>
+        <ul>
+          <li><a href="#definition-of-quality">Definition of Quality</a></li>
+          <li><a href="#six-sigma">Six Sigma</a></li>
+          <li><a href="#relationship-between-quality-and-reliability">Relationship Between Quality and Reliability</a></li>
+          <li><a href="#impact-of-quality-on-cycle-time-and-cost">Impact of Quality on Cycle Time and Cost</a></li>
+          <li><a href="#iso-9000">ISO 9000</a></li>
+          <li><a href="#check-sheets">Check Sheets</a></li>
+          <li><a href="#pareto">Pareto</a></li>
+          <li><a href="#fishbone-ishikawa-diagrams">Fishbone Ishikawa Diagrams</a></li>
+          <li><a href="#cause-screening">Cause Screening</a></li>
+          <li><a href="#teamwork">Teamwork</a></li>
+          <li><a href="#multi-voting">Multi Voting</a></li>
+          <li><a href="#statistical-process-control">Statistical Process Control</a></li>
+          <li><a href="#taguchi">Taguchi</a></li>
+          <li><a href="#design-of-experiments">Design of Experiments</a></li>
+          <li><a href="#software-improvement-tools">Software Improvement Tools</a></li>
+          <li><a href="#references">References</a></li>
+          <li><a href="#quiz">Quiz</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="flat flat-body">
+      <div>

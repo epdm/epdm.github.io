@@ -1,14 +1,37 @@
 
-  <div class="quiz">
-  	<p>What does TQM Stand for?</p>
+    </div>
+  </div>
+  <div class="flat flat-quiz">
+    <div id="quiz" class="quiz">
+      <h3>Quiz</h3>
 
-  	<input type="text" id="q1" placeholder="" />
-  	
-  	<p>Who runs this course?</p>
+      <p>What does TQM Stand for?</p>
 
-  	<input type="text" id="q2" placeholder="" />
-  	
-  	<a href="#" id="submit">Submit Quiz</a>
+      <select class="form-control" id="q1">
+        <option value="tony-quite-muscular">Tony Quite Muscular</option>
+        <option value="total-quality-management">Total Quality Management</option>
+        <option value="tickle-quotient-monkey">Tickle Quotient Monkey</option>
+        <option value="tingly-queue-mathematics">Tingly Queue Mathematics</option>
+      </select>
+
+      <p>Who runs this course?</p>
+
+      <select class="form-control" id="q2">
+        <option value="tony-the-tiger">Tony the Tiger</option>
+        <option value="godzilla">Godzilla</option>
+        <option value="anthony-walton">Anthony Walton</option>
+        <option value="blake-hawkins">Blake Hawkins</option>
+      </select>
+
+      <button class="btn btn-default" id="submit">Submit Quiz</button>
+    </div>
+  </div>
+
+  <div class="flat flat-footer">
+    <div class="footer">
+      Contact | Privacy Policy | Terms &amp; Conditions | Copyright<br />
+      Copyright &copy; 2016 Burrito Rule
+    </div>
   </div>
   </body>
 </html>
