@@ -86,12 +86,16 @@
       }
 
       .footer {
-        width: 55em;
-        margin: 0 auto;
-        padding: 1em;
+        width: 60em;
+        margin: 1em auto;
         color: #eee;
         line-height: 300%;
         font-size: 0.8em;
+      }
+
+      .response {
+        margin: 1em;
+        width: initial;
       }
 
       .toc {
@@ -101,7 +105,7 @@
         margin: 0 auto;
       }
 
-      .quiz {
+      div.quiz {
         padding: 2em;
         margin: 1em 1em 2em;
         width: 60em;
@@ -326,23 +330,29 @@
 
       <p>What does TQM Stand for?</p>
 
-      <select class="form-control" id="q1">
-        <option value="tony-quite-muscular">Tony Quite Muscular</option>
-        <option value="total-quality-management">Total Quality Management</option>
-        <option value="tickle-quotient-monkey">Tickle Quotient Monkey</option>
-        <option value="tingly-queue-mathematics">Tingly Queue Mathematics</option>
+      <select class="form-control quiz">
+        <option                >Tony Quite Muscular</option>
+        <option value="correct">Total Quality Management</option>
+        <option                >Tickle Quotient Monkey</option>
+        <option                >Tingly Queue Mathematics</option>
       </select>
 
       <p>Who runs this course?</p>
 
-      <select class="form-control" id="q2">
-        <option value="tony-the-tiger">Tony the Tiger</option>
-        <option value="godzilla">Godzilla</option>
-        <option value="anthony-walton">Anthony Walton</option>
-        <option value="blake-hawkins">Blake Hawkins</option>
+      <select class="form-control quiz">
+        <option                >Tony the Tiger</option>
+        <option                >Godzilla</option>
+        <option value="correct">Anthony Walton</option>
+        <option                >Blake Hawkins</option>
       </select>
 
-      <button class="btn btn-default" id="submit">Submit Quiz</button>
+      <div class="input-group">
+        <button class="btn btn-default" id="submit">
+          <span class="glyphicon glyphicon-menu-right"></span> Submit Quiz
+        </button>
+      </div>
+
+      <div class="response alert"></div>
     </div>
   </div>
 

@@ -2,22 +2,41 @@
 "use strict";
 
 $(document).ready(function(){
-  'hello world';
-
   $('#submit').click(function(e){
     e.preventDefault();
 
-    var q1_correct = $('#q1').val() === 'total-quality-management';
-    var q2_correct = $('#q2').val() === 'anthony-walton';
+    var all       = $('select.quiz');
+    var incorrect = all.filter(function(){
+      return $(this).val() !== "correct";
+    });
+    var correct   = all.not(incorrect);
 
-    console.log('test');
-    if (q1_correct && q2_correct)
+    incorrect.each(function(){
+      $(this).removeClass("label-success");
+      $(this).addClass("label-warning");
+    });
+
+    correct.each(function(){
+      $(this).removeClass("label-warning");
+      $(this).addClass("label-success");
+    });
+
+    var wrong = incorrect.size();
+    if (wrong === 0)
     {
-      alert('nice job');
+      $(this).attr('disabled', true);
+      $(this).html('<span class="glyphicon glyphicon-ok"></span> Great job!');
+      $('.response').hide()
+                    .removeClass('alert-info')
+                    .html("");
     }
     else
     {
-      alert("you're shit mate");
+      $('.response').show()
+                    .addClass('alert-info')
+                    .html("Oops, looks like there are " +
+                          wrong +
+                          " mistakes. Try again?");
     }
   });
 });
