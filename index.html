@@ -53,7 +53,7 @@
       }
 
       select {
-        margin: 0.5em 0 1em;
+        margin: 0 0 2em;
       }
 
       .flat {
@@ -328,23 +328,49 @@
     <div id="quiz" class="quiz">
       <h3>Quiz</h3>
 
+
+
       <p>What does TQM Stand for?</p>
 
       <select class="form-control quiz">
+        <option></option>
         <option                >Tony Quite Muscular</option>
         <option value="correct">Total Quality Management</option>
         <option                >Tickle Quotient Monkey</option>
         <option                >Tingly Queue Mathematics</option>
       </select>
 
-      <p>Who runs this course?</p>
+      <p>Which of the following is true about teamwork?</p>
 
       <select class="form-control quiz">
-        <option                >Tony the Tiger</option>
-        <option                >Godzilla</option>
-        <option value="correct">Anthony Walton</option>
-        <option                >Blake Hawkins</option>
+        <option></option>
+        <option value="correct">Teamwork requires training.</option>
+        <option                >Teamwork cannot boost productivity.</option>
+        <option                >Individual performance evaluations are important in teamwork.</option>
+        <option                >Inter-department communication is not related to teamwork.</option>
       </select>
+
+      <p>Which of the following would multi-voting be <em>most</em> useful for?</p>
+
+      <select class="form-control quiz">
+        <option></option>
+        <option                >Voting for a group of leaders rather than one.</option>
+        <option                >Choosing the best option from five components.</option>
+        <option                >Evaluating the performance of your employees.</option>
+        <option value="correct">Narrowing down a list of options produced by the team.</option>
+      </select>
+
+      <p>In the context of statistical process control, what do you need to do when a control chart value is outside a few standard deviations?</p>
+
+      <select class="form-control quiz">
+        <option></option>
+        <option                >Validate that such a result only occurred once.</option>
+        <option value="correct">Investigate the source of the unusual result and eliminate it.</option>
+        <option                >Fire whoever is responsible.</option>
+        <option                >Ship the product anyway as the process control will ensure it is safe to use.</option>
+      </select>
+
+
 
       <div class="input-group">
         <button class="btn btn-default" id="submit">

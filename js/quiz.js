@@ -2,6 +2,8 @@
 "use strict";
 
 $(document).ready(function(){
+  $('.response').hide();
+
   $('#submit').click(function(e){
     e.preventDefault();
 
