@@ -225,40 +225,45 @@ Causes are usually grouped into major categories to identify these sources of
 variation. The categories typically include:
 
 * People: Anyone involved with the process
-* Methods: How the process is performed and the specific requirements for doing it, such as policies, procedures, rules, regulations and laws
+* Methods: How the process is performed and the specific requirements for doing
+it, such as policies, procedures, rules, regulations and laws
 * Machines: Any equipment, computers, tools, etc. required to accomplish the job
-* Materials: Raw materials, parts, pens, paper, etc. used to produce the final product
-* Measurements: Data generated from the process that are used to evaluate its quality
-* Environment: The conditions, such as location, time, temperature, and culture in which the process operates
+* Materials: Raw materials, parts, pens, paper, etc. used to produce the final
+product
+* Measurements: Data generated from the process that are used to evaluate its
+quality
+* Environment: The conditions, such as location, time, temperature, and culture
+in which the process operates
 
 A typical, simplistic example of an Ishikawa diagram is presented below:
 
 ![](images/FishBoneDiagram.gif "Basketball Free-Throws Fish Bone Diagram")
 
-There have been identified topics for fishbone diagram cause classes in different areas of development. They are grouped into easily remembered sets. Examples are:
+There have been identified topics for fishbone diagram cause classes in
+different areas of development. They are grouped into easily remembered sets.
+Examples are:
 
-* The 5 M's (used in manufacturing industry): 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Machine (technology)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Method (process), 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Material (Includes Raw Material, Consumables and Information.), 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Man Power (physical work)/Mind Power, Measurement (Inspection)
+* The 5 M's (used in manufacturing industry):
+    - Machine (technology)
+    - Method (process),
+    - Material (Includes Raw Material, Consumables and Information.),
+    - Man Power (physical work)/Mind Power, Measurement (Inspection)
 
-* The 8 P's (used in marketing industry): 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Product/Service
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Price
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Place
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Promotion
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * People/personnel
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Process
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Physical Evidence
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Publicity. 
+* The 8 P's (primarily used in service marketing industry):
+    - Product/Service
+    - Price
+    - Place
+    - Promotion
+    - People/personnel
+    - Process
+    - Physical Evidence
+    - Publicity.
 
-The 8 P's are primarily used in service marketing.
-*The 4 S's (used in service industry): 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Surroundings
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Suppliers
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Systems
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Skills
+* The 4 S's (used in service industry):
+    - Surroundings
+    - Suppliers
+    - Systems
+    - Skills
 
 
 
@@ -355,21 +360,55 @@ cost of non-conformance.
 Taguchi
 -------
 
-Tahuchi defines quality as the loss imparted by the product to society from the time the product is shipped. Quality loss occurs when a product deviates from target or nominal values.
-Statistical methods developed to improve the quality of manufactures goods. Three principal contributions to statistics:
-1. Specific loss function
-L(x) = k(x-N)2
-<http://www.slideshare.net/MentariPagi4/tqm-taguchi>
+Tahuchi defines quality as the loss imparted by the product to society from the
+time the product is shipped. Quality loss occurs when a product deviates from
+target or nominal values.
 
+Statistical methods developed to improve the quality of manufactures goods.
+Three principal contributions to statistics:
+
+1. Specific loss function `L(x) = k(x-N)2`
 2. The philosophy of off-line quality control
 3. Innovation in the design of experiments
-Taguchi believed the best opportunity to eliminate variation is during the design of a product and its manufacturing process. Therefore he developed a strategy for quality engineering. There are 3 stages:
-1. System Design - Conceptual level
-2. Parameter (measure) design - nominal values of the various dimensions and design parameters need to be set. Robustification.
-3. Tolerance design - With a successfully completed parameter design, and an understanding of the effect that the various parameters have on performance, resources can be focused on reducing and controlling variation in the critical few dimensions.
-TAGUCHI ON QUALITY: Quality has been defined by many as; "being within specifications," "zero defects," or "customer satisfaction." However, these definitions do not offer a method of obtaining quality or a means of relating quality to cost. Taguchi proposes a holistic view of quality which relates quality to cost, not just to the manufacturer at the time of production, but to the customer and society as a whole (Phadke, 1989). Taguchi defines quality as, "The quality of a product is the (minimum) loss imparted by the product to the society from the time product is shipped" (Bryne and Taguchi, 1986). This economic loss is associated with losses due to rework, waste of resources during manufacture, warranty costs, customer complaints and dissatisfaction, time and money spent by customers on failing products, and eventual loss of market share. Figure-1 illustrates the loss function and how it relates to the specification limits. Presented at the 1991 Annual Conference of the International Society of Parametric Analysts. - 2 - LSL USL LOSS $ TARGET Figure-1; The Quadratic Loss Function When a critical quality characteristic deviates from the target value, it causes a loss. In other words, variation from target is the antithesis of quality. Quality simply means no variability or very little variation from target performance (Di Lorenzo, 1990). An examination of the loss function shows that variability reduction or quality improvement drives cost down. Lowest cost can only be achieved at zero variability from target. Continuously pursuing variability reduction from the target value in critical quality characteristics is the key to achieve high quality and reduce cost. Taguchi's quadratic loss function is the first operational joining of cost of quality and variability of product that allows design engineers to actually calculate the optimum design based on cost analysis and experimentation with the design (Teicholz, 1987).
-<http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20040121019.pdf>
 
+Taguchi believed the best opportunity to eliminate variation is during the
+design of a product and its manufacturing process. Therefore he developed a
+strategy for quality engineering. There are 3 stages:
+
+1. System Design - Conceptual level
+2. Parameter (measure) design - nominal values of the various dimensions and
+design parameters need to be set. Robustification.
+3. Tolerance design - With a successfully completed parameter design, and an
+understanding of the effect that the various parameters have on performance,
+resources can be focused on reducing and controlling variation in the critical
+few dimensions.
+
+TAGUCHI ON QUALITY: Quality has been defined by many as; "being within
+specifications," "zero defects," or "customer satisfaction." However, these
+definitions do not offer a method of obtaining quality or a means of relating
+quality to cost. Taguchi proposes a holistic view of quality which relates
+quality to cost, not just to the manufacturer at the time of production, but to
+the customer and society as a whole (Phadke, 1989). Taguchi defines quality as,
+"The quality of a product is the (minimum) loss imparted by the product to the
+society from the time product is shipped" (Bryne and Taguchi, 1986). This
+economic loss is associated with losses due to rework, waste of resources during
+manufacture, warranty costs, customer complaints and dissatisfaction, time and
+money spent by customers on failing products, and eventual loss of market share.
+
+Figure-1 illustrates the loss function and how it relates to the specification
+limits. Presented at the 1991 Annual Conference of the International Society of
+Parametric Analysts. - 2 - LSL USL LOSS $ TARGET Figure-1; The Quadratic Loss
+Function When a critical quality characteristic deviates from the target value,
+it causes a loss. In other words, variation from target is the antithesis of
+quality. Quality simply means no variability or very little variation from
+target performance (Di Lorenzo, 1990). An examination of the loss function shows
+that variability reduction or quality improvement drives cost down. Lowest cost
+can only be achieved at zero variability from target. Continuously pursuing
+variability reduction from the target value in critical quality characteristics
+is the key to achieve high quality and reduce cost. Taguchi's quadratic loss
+function is the first operational joining of cost of quality and variability of
+product that allows design engineers to actually calculate the optimum design
+based on cost analysis and experimentation with the design (Teicholz, 1987).
 
 Design of Experiments
 ---------------------
@@ -427,3 +466,6 @@ Sha'Ri Mohd Yusof, Elaine Aspinwall, 2000
 * Multivoting; University of Kentucky, Program and Staff Development,
 <https://psd.ca.uky.edu/files/multivot.pdf>
 * Multi-Voting, goLeanSixSigma, <https://goleansixsigma.com/multi-voting/>
+* Taguchi Slides, <http://www.slideshare.net/MentariPagi4/tqm-taguchi>
+* Taguchi, Teicholz,
+<http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20040121019.pdf>

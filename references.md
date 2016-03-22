@@ -13,3 +13,6 @@ Sha'Ri Mohd Yusof, Elaine Aspinwall, 2000
 * Multivoting; University of Kentucky, Program and Staff Development,
 <https://psd.ca.uky.edu/files/multivot.pdf>
 * Multi-Voting, goLeanSixSigma, <https://goleansixsigma.com/multi-voting/>
+* Taguchi Slides, <http://www.slideshare.net/MentariPagi4/tqm-taguchi>
+* Taguchi, Teicholz,
+<http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20040121019.pdf>
