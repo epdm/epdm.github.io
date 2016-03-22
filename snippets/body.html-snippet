@@ -130,8 +130,14 @@ what is known as the "Iron Triangle", depicted in the figure below.
 ![](images/iron_triangle.jpg "The Iron Triangle")
 
 The relationship between the three constraints means that management staff
-usually end up having to make a choice between two out of the three of them - 
-"Pick and two". To take an example, choosing to have a 
+end up having to make a choice between two out of the three of them - in
+other words - "Pick and two". This usually ends up with the three following
+options:
+
+* Designing a product to a high standard with a low time to market, at the cost of being expensive
+* Designing a product quickly and at a low cost at the expensive of the quality of the product
+* Designing a product to a high standard and at a low cost, but taking a long time to market.
+
 ISO 9000
 --------
 
@@ -245,14 +251,15 @@ A typical, simplistic example of an Ishikawa diagram is presented below:
 ![](images/FishBoneDiagram.gif "Basketball Free-Throws Fish Bone Diagram")
 
 There have been identified topics for fishbone diagram cause classes in
-different areas of development. They are grouped into easily remembered sets.
-Examples are:
+different areas of development. They are grouped into easily remembered sets,
+examples of which are presented below.
 
 * The 5 M's (used in manufacturing industry):
     - Machine (technology)
-    - Method (process),
+    - Method (process)
     - Material (Includes Raw Material, Consumables and Information.),
-    - Man Power (physical work)/Mind Power, Measurement (Inspection)
+    - Man Power (physical work)/Mind Power
+    - Measurement (Inspection)
 
 * The 8 P's (primarily used in service marketing industry):
     - Product/Service
@@ -365,7 +372,7 @@ cost of non-conformance.
 Taguchi
 -------
 
-Tahuchi defines quality as the loss imparted by the product to society from the
+Taguchi defines quality as the loss imparted by the product to society from the
 time the product is shipped. Quality loss occurs when a product deviates from
 target or nominal values.
 

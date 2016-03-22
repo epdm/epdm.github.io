@@ -47,7 +47,13 @@
 <img src="images/iron_triangle.jpg" title="The Iron Triangle" />
 
 </div>
-<p>The relationship between the three constraints means that management staff usually end up having to make a choice between two out of the three of them - &quot;Pick and two&quot;. To take an example, choosing to have a ISO 9000 --------</p>
+<p>The relationship between the three constraints means that management staff end up having to make a choice between two out of the three of them - in other words - &quot;Pick and two&quot;. This usually ends up with the three following options:</p>
+<ul>
+<li>Designing a product to a high standard with a low time to market, at the cost of being expensive</li>
+<li>Designing a product quickly and at a low cost at the expensive of the quality of the product</li>
+<li>Designing a product to a high standard and at a low cost, but taking a long time to market.</li>
+</ul>
+<h2 id="iso-9000">ISO 9000</h2>
 <p>The ISO 9000 is family of standards that gives requirements for an organization's quality management system (QMS). It can be adopted to help ensure organisations meet the standards of customers and stakeholders whilst meeting the statutory and regulatory requirements of products. ISO 9000 is based on the following eight quality management principles:</p>
 <ol style="list-style-type: decimal">
 <li>Customer focus</li>
@@ -111,14 +117,15 @@
 <img src="images/FishBoneDiagram.gif" title="Basketball Free-Throws Fish Bone Diagram" />
 
 </div>
-<p>There have been identified topics for fishbone diagram cause classes in different areas of development. They are grouped into easily remembered sets. Examples are:</p>
+<p>There have been identified topics for fishbone diagram cause classes in different areas of development. They are grouped into easily remembered sets, examples of which are presented below.</p>
 <ul>
 <li>The 5 M's (used in manufacturing industry):
 <ul>
 <li>Machine (technology)</li>
-<li>Method (process),</li>
+<li>Method (process)</li>
 <li>Material (Includes Raw Material, Consumables and Information.),</li>
-<li>Man Power (physical work)/Mind Power, Measurement (Inspection)</li>
+<li>Man Power (physical work)/Mind Power</li>
+<li>Measurement (Inspection)</li>
 </ul></li>
 <li>The 8 P's (primarily used in service marketing industry):
 <ul>
@@ -187,7 +194,7 @@
 <p>Identify product that is beyond reasonable quality control by many (3?) standard deviations. This product has been produced by unusual circumstances - and that should be traced and eliminated.</p>
 <p>Argument: quality is conformance to requirement and can only be measured by the cost of non-conformance.</p>
 <h2 id="taguchi">Taguchi</h2>
-<p>Tahuchi defines quality as the loss imparted by the product to society from the time the product is shipped. Quality loss occurs when a product deviates from target or nominal values.</p>
+<p>Taguchi defines quality as the loss imparted by the product to society from the time the product is shipped. Quality loss occurs when a product deviates from target or nominal values.</p>
 <p>Statistical methods developed to improve the quality of manufactures goods. Three principal contributions to statistics:</p>
 <ol style="list-style-type: decimal">
 <li>Specific loss function <code>L(x) = k(x-N)2</code></li>

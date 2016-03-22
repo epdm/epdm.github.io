@@ -25,14 +25,15 @@ A typical, simplistic example of an Ishikawa diagram is presented below:
 ![](images/FishBoneDiagram.gif "Basketball Free-Throws Fish Bone Diagram")
 
 There have been identified topics for fishbone diagram cause classes in
-different areas of development. They are grouped into easily remembered sets.
-Examples are:
+different areas of development. They are grouped into easily remembered sets,
+examples of which are presented below.
 
 * The 5 M's (used in manufacturing industry):
     - Machine (technology)
-    - Method (process),
+    - Method (process)
     - Material (Includes Raw Material, Consumables and Information.),
-    - Man Power (physical work)/Mind Power, Measurement (Inspection)
+    - Man Power (physical work)/Mind Power
+    - Measurement (Inspection)
 
 * The 8 P's (primarily used in service marketing industry):
     - Product/Service

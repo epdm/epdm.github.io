@@ -151,15 +151,15 @@
 
       <!-- Taguchi -->
       <p>
-        Taguchi
+        Which of the following are true about Taguchi process control?
       </p>
 
       <select class="form-control quiz">
         <option></option>
-        <option value="correct"></option>
-        <option                ></option>
-        <option                ></option>
-        <option                ></option>
+        <option                >Taguchi is a joining of the words "tag" and "sushi", indicating how process control can be important for arbitrary topics.</option>
+        <option                >Taguchi process control has nothing to do with tolerence design.</option>
+        <option value="correct">Taguchi believed that a strategy was necessary for quality engineering during manufacture.</option>
+        <option                >Taguchi process control should be done in one go at the end of a product's development.</option>
       </select>
 
       <!-- Design of Experiments -->
