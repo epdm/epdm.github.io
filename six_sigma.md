@@ -57,5 +57,14 @@ occurring with respect to time, or space. The eventual process yield can be
 calculated using Poisson's formula using the following, where dpu is the
 measured defects per unit.
 
+
+![](images/Poisson Distribution.png "Poisson Distribution")
+
+
 As an example if average dpu=1, the probability of having a device with no
 defects can be calculated as:
+
+
+![](images/Yield Calculation.png "Yield Calculation")
+
+
