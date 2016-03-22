@@ -7,16 +7,111 @@
 
 
 
-      <p>What does TQM Stand for?</p>
+      <!-- Definition of Quality -->
+      <p>
+        Definition of Quality
+      </p>
 
       <select class="form-control quiz">
         <option></option>
-        <option                >Tony Quite Muscular</option>
-        <option value="correct">Total Quality Management</option>
-        <option                >Tickle Quotient Monkey</option>
-        <option                >Tingly Queue Mathematics</option>
+        <option value="correct"></option>
+        <option                ></option>
+        <option                ></option>
+        <option                ></option>
       </select>
 
+      <!-- Six Sigma -->
+      <p>
+        Six Sigma
+      </p>
+
+      <select class="form-control quiz">
+        <option></option>
+        <option value="correct"></option>
+        <option                ></option>
+        <option                ></option>
+        <option                ></option>
+      </select>
+
+      <!-- Relationship Between Quality and Reliability -->
+      <p>
+        Relationship Between Quality and Reliability
+      </p>
+
+      <select class="form-control quiz">
+        <option></option>
+        <option value="correct"></option>
+        <option                ></option>
+        <option                ></option>
+        <option                ></option>
+      </select>
+
+      <!-- Impact of Quality on Cycle Time and Cost -->
+      <p>
+        Impact of Quality on Cycle Time and Cost
+      </p>
+
+      <select class="form-control quiz">
+        <option></option>
+        <option value="correct"></option>
+        <option                ></option>
+        <option                ></option>
+        <option                ></option>
+      </select>
+
+      <!-- Check Sheets -->
+      <p>
+        Check Sheets
+      </p>
+
+      <select class="form-control quiz">
+        <option></option>
+        <option value="correct"></option>
+        <option                ></option>
+        <option                ></option>
+        <option                ></option>
+      </select>
+
+      <!-- Pareto -->
+      <p>
+        Pareto
+      </p>
+
+      <select class="form-control quiz">
+        <option></option>
+        <option value="correct"></option>
+        <option                ></option>
+        <option                ></option>
+        <option                ></option>
+      </select>
+
+      <!-- Fishbone Ishikawa Diagrams -->
+      <p>
+        Fishbone Ishikawa Diagrams
+      </p>
+
+      <select class="form-control quiz">
+        <option></option>
+        <option value="correct"></option>
+        <option                ></option>
+        <option                ></option>
+        <option                ></option>
+      </select>
+
+      <!-- Cause Screening -->
+      <p>
+        Cause Screening
+      </p>
+
+      <select class="form-control quiz">
+        <option></option>
+        <option value="correct"></option>
+        <option                ></option>
+        <option                ></option>
+        <option                ></option>
+      </select>
+
+      <!-- Teamwork -->
       <p>Which of the following is true about teamwork?</p>
 
       <select class="form-control quiz">
@@ -27,7 +122,10 @@
         <option                >Inter-department communication is not related to teamwork.</option>
       </select>
 
-      <p>Which of the following would multi-voting be <em>most</em> useful for?</p>
+      <!-- Multi-voting -->
+      <p>
+        Which of the following would multi-voting be <em>most</em> useful for?
+      </p>
 
       <select class="form-control quiz">
         <option></option>
@@ -37,7 +135,11 @@
         <option value="correct">Narrowing down a list of options produced by the team.</option>
       </select>
 
-      <p>In the context of statistical process control, what do you need to do when a control chart value is outside a few standard deviations?</p>
+      <!-- Statistical Process Control -->
+      <p>
+        In the context of statistical process control, what do you need to do
+        when a control chart value is outside a few standard deviations?
+      </p>
 
       <select class="form-control quiz">
         <option></option>
@@ -45,6 +147,46 @@
         <option value="correct">Investigate the source of the unusual result and eliminate it.</option>
         <option                >Fire whoever is responsible.</option>
         <option                >Ship the product anyway as the process control will ensure it is safe to use.</option>
+      </select>
+
+      <!-- Taguchi -->
+      <p>
+        Taguchi
+      </p>
+
+      <select class="form-control quiz">
+        <option></option>
+        <option value="correct"></option>
+        <option                ></option>
+        <option                ></option>
+        <option                ></option>
+      </select>
+
+      <!-- Design of Experiments -->
+      <p>
+        When designing experiments using DoE methods, what is trying to be
+        maximised?
+      </p>
+
+      <select class="form-control quiz">
+        <option                ></option>
+        <option                >The number of team members that can be involved in production.</option>
+        <option                >The efficiency (inverse of cost) for each experiment.</option>
+        <option                >Pure Retail Value&trade;.</option>
+        <option value="correct">The information obtained from each experimental trial.</option>
+      </select>
+
+      <!-- Software Improvement Tools -->
+      <p>
+        Which of the following are a primary use for software improvement tools?
+      </p>
+
+      <select class="form-control quiz">
+        <option></option>
+        <option value="correct">Simplify TQM tasks like building charts.</option>
+        <option                >Provide a means to sell products online.</option>
+        <option                >The Facebook.</option>
+        <option                >Interact with customers in an invasive way.</option>
       </select>
 
 

@@ -16,3 +16,7 @@ Sha'Ri Mohd Yusof, Elaine Aspinwall, 2000
 * Taguchi Slides, <http://www.slideshare.net/MentariPagi4/tqm-taguchi>
 * Taguchi, Teicholz,
 <http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20040121019.pdf>
+* TQM Software Tools,
+<http://www.emeraldinsight.com/doi/pdfplus/10.1108/09544789610125333>
+* DoE barriers,
+<http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846>

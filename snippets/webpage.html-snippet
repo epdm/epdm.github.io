@@ -42,8 +42,12 @@
 <p>Quality assures the product will work after assembly, whereas reliability provides the probability that the design will perform its intended function for a designated period of time under specified conditions. Engineering process reliability is the fundamental concept that is meant to anticipate quality failures over the life cycle of a product. Variation of the process output may affect both quality and reliability.</p>
 <p>Controlling reliability is much more complex and cannot be controlled by a standard &quot;quality&quot; (Six Sigma) approach, as they need a systems engineering approach. Quality is a snapshot at the start of life and mainly related to control of lower level product specifications and reliability is (as part of systems engineering) more of a system level motion picture of the day-by-day operation for many years. Time zero defects are manufacturing mistakes that escaped quality control, whereas, the additionald effects that appear over time are 'reliability defects'.</p>
 <h2 id="impact-of-quality-on-cycle-time-and-cost">Impact of Quality on Cycle Time and Cost</h2>
-<p>Lorem ipsum.</p>
-<h2 id="iso-9000">ISO 9000</h2>
+<p>These three project managment constraints are traditionally represented in what is known as the &quot;Iron Triangle&quot;, depicted in the figure below.</p>
+<div class="figure">
+<img src="images/iron_triangle.jpg" title="The Iron Triangle" />
+
+</div>
+<p>The relationship between the three constraints means that management staff usually end up having to make a choice between two out of the three of them - &quot;Pick and two&quot;. To take an example, choosing to have a ISO 9000 --------</p>
 <p>The ISO 9000 is family of standards that gives requirements for an organization's quality management system (QMS). It can be adopted to help ensure organisations meet the standards of customers and stakeholders whilst meeting the statutory and regulatory requirements of products. ISO 9000 is based on the following eight quality management principles:</p>
 <ol style="list-style-type: decimal">
 <li>Customer focus</li>
@@ -199,19 +203,33 @@
 <p>TAGUCHI ON QUALITY: Quality has been defined by many as; &quot;being within specifications,&quot; &quot;zero defects,&quot; or &quot;customer satisfaction.&quot; However, these definitions do not offer a method of obtaining quality or a means of relating quality to cost. Taguchi proposes a holistic view of quality which relates quality to cost, not just to the manufacturer at the time of production, but to the customer and society as a whole (Phadke, 1989). Taguchi defines quality as, &quot;The quality of a product is the (minimum) loss imparted by the product to the society from the time product is shipped&quot; (Bryne and Taguchi, 1986). This economic loss is associated with losses due to rework, waste of resources during manufacture, warranty costs, customer complaints and dissatisfaction, time and money spent by customers on failing products, and eventual loss of market share.</p>
 <p>Figure-1 illustrates the loss function and how it relates to the specification limits. Presented at the 1991 Annual Conference of the International Society of Parametric Analysts. - 2 - LSL USL LOSS $ TARGET Figure-1; The Quadratic Loss Function When a critical quality characteristic deviates from the target value, it causes a loss. In other words, variation from target is the antithesis of quality. Quality simply means no variability or very little variation from target performance (Di Lorenzo, 1990). An examination of the loss function shows that variability reduction or quality improvement drives cost down. Lowest cost can only be achieved at zero variability from target. Continuously pursuing variability reduction from the target value in critical quality characteristics is the key to achieve high quality and reduce cost. Taguchi's quadratic loss function is the first operational joining of cost of quality and variability of product that allows design engineers to actually calculate the optimum design based on cost analysis and experimentation with the design (Teicholz, 1987).</p>
 <h2 id="design-of-experiments">Design of Experiments</h2>
-<p>A method used to maximize the information obtained from experimental data through very few trails or runs. 1. Full factorial 2. Fractional factorial 3. Taguchi Methods 4. RSM (Response Surface Methodology) Benefits of DOE 1. Quick, economical and efficient method to identify most significant input factors 2. Simultaneous trials with multiple control factors instead of one variable at a time. 3. Gives interaction effects of control factors / input factors. 4. Less number of trials required to get process insight. 5. Impact of control factors on response can be easily measured. 6. Explore relationship of response and control factors. This is an interesting read as it explains why engineers are not using DoE and the barriers faced by DoE methods <a href="http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846" class="uri">http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846</a></p>
+<p>A method used to maximize the information obtained from experimental data through very few trials or runs.</p>
+<ol style="list-style-type: decimal">
+<li>Full factorial</li>
+<li>Fractional factorial</li>
+<li>Taguchi Methods</li>
+<li>RSM (Response Surface Methodology)</li>
+</ol>
+<p>Benefits of DoE:</p>
+<ol style="list-style-type: decimal">
+<li>Quick, economical and efficient method to identify most significant input factors</li>
+<li>Simultaneous trials with multiple control factors instead of one variable at a time.</li>
+<li>Gives interaction effects of control factors / input factors.</li>
+<li>Less number of trials required to get process insight.</li>
+<li>Impact of control factors on response can be easily measured.</li>
+<li>Explore relationship of response and control factors.</li>
+</ol>
 <h2 id="software-improvement-tools">Software Improvement Tools</h2>
-<p>Not exactly sure what this title means. Therefore I have just looked at software you can use to use to improve TQM. In general I found a lot of articles which seemed to mention the things below however I have noticed that these are being covered by other people in the group.</p>
+<p>Among other uses, software improvement tools can simplify TQM tasks, for example by generating legible, powerful diagrams. The following can all be improved by the use of software:</p>
 <ul>
-<li>Cause and Effect Diagram</li>
-<li>Checksheet</li>
-<li>Control Chart</li>
-<li>Graphs (Run Chart)</li>
-<li>Histogram</li>
-<li>Pareto Chart</li>
-<li><p>Scatter Diagram</p></li>
-<li>Pathmaker: Seems to be a tool to help your team work more effectively, and not anything to do with DoE I think the following two articles cover what this section is looking for but I want to talk to Anthony about this.</li>
-<li><p><a href="http://www.emeraldinsight.com/doi/pdfplus/10.1108/09544789610125333" class="uri">http://www.emeraldinsight.com/doi/pdfplus/10.1108/09544789610125333</a></p></li>
+<li>Cause and Effect Diagrams</li>
+<li>Checksheets</li>
+<li>Control Charts</li>
+<li>Graphss (Run Charts)</li>
+<li>Histograms</li>
+<li>Pareto Charts</li>
+<li>Scatter Diagrams</li>
+<li>Teamwork systems like Pathmaker, JIRA, and Trello.</li>
 </ul>
 <h2 id="references">References</h2>
 <ul>
@@ -223,4 +241,6 @@
 <li>Multi-Voting, goLeanSixSigma, <a href="https://goleansixsigma.com/multi-voting/" class="uri">https://goleansixsigma.com/multi-voting/</a></li>
 <li>Taguchi Slides, <a href="http://www.slideshare.net/MentariPagi4/tqm-taguchi" class="uri">http://www.slideshare.net/MentariPagi4/tqm-taguchi</a></li>
 <li>Taguchi, Teicholz, <a href="http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20040121019.pdf" class="uri">http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20040121019.pdf</a></li>
+<li>TQM Software Tools, <a href="http://www.emeraldinsight.com/doi/pdfplus/10.1108/09544789610125333" class="uri">http://www.emeraldinsight.com/doi/pdfplus/10.1108/09544789610125333</a></li>
+<li>DoE barriers, <a href="http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846" class="uri">http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846</a></li>
 </ul>

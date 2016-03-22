@@ -124,9 +124,14 @@ effects that appear over time are 'reliability defects'.
 Impact of Quality on Cycle Time and Cost
 ----------------------------------------
 
-Lorem ipsum.
+These three project managment constraints are traditionally represented in
+what is known as the "Iron Triangle", depicted in the figure below.
 
+![](images/iron_triangle.jpg "The Iron Triangle")
 
+The relationship between the three constraints means that management staff
+usually end up having to make a choice between two out of the three of them - 
+"Pick and two". To take an example, choosing to have a 
 ISO 9000
 --------
 
@@ -413,44 +418,40 @@ based on cost analysis and experimentation with the design (Teicholz, 1987).
 Design of Experiments
 ---------------------
 
-A method used to maximize the information obtained from experimental data through very few trails or runs.
+A method used to maximize the information obtained from experimental data
+through very few trials or runs.
+
 1. Full factorial
 2. Fractional factorial
 3. Taguchi Methods
 4. RSM (Response Surface Methodology)
-Benefits of DOE
-1.  Quick, economical and efficient method to identify most significant input factors
-2. Simultaneous trials with multiple control factors instead of one variable at a time.
+
+Benefits of DoE:
+
+1. Quick, economical and efficient method to identify most significant input
+factors
+2. Simultaneous trials with multiple control factors instead of one variable at a
+time.
 3. Gives interaction effects of control factors / input factors.
 4. Less number of trials required to get process insight.
 5. Impact of control factors on response can be easily measured.
 6. Explore relationship of response and control factors.
-This is an interesting read as it explains why engineers are not using DoE and the barriers faced by DoE methods
-<http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846>
 
 Software Improvement Tools
 --------------------------
 
-Not exactly sure what this title means. Therefore I have just looked at software
-you can use to use to improve TQM. In general I found a lot of articles which
-seemed to mention the things below however I have noticed that these are being
-covered by other people in the group.
+Among other uses, software improvement tools can simplify TQM tasks, for
+example by generating legible, powerful diagrams. The following can all be
+improved by the use of software:
 
-* Cause and Effect Diagram
-* Checksheet
-* Control Chart
-* Graphs (Run Chart)
-* Histogram
-* Pareto Chart
-* Scatter Diagram
-
-
-
-* Pathmaker: Seems to be a tool to help your team work more effectively, and not
-anything to do with DoE I think the following two articles cover what this
-section is looking for but I want to talk to Anthony about this.
-* <http://www.emeraldinsight.com/doi/pdfplus/10.1108/09544789610125333>
-
+* Cause and Effect Diagrams
+* Checksheets
+* Control Charts
+* Graphss (Run Charts)
+* Histograms
+* Pareto Charts
+* Scatter Diagrams
+* Teamwork systems like Pathmaker, JIRA, and Trello.
 
 References
 ----------
@@ -469,3 +470,7 @@ Sha'Ri Mohd Yusof, Elaine Aspinwall, 2000
 * Taguchi Slides, <http://www.slideshare.net/MentariPagi4/tqm-taguchi>
 * Taguchi, Teicholz,
 <http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20040121019.pdf>
+* TQM Software Tools,
+<http://www.emeraldinsight.com/doi/pdfplus/10.1108/09544789610125333>
+* DoE barriers,
+<http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846>
