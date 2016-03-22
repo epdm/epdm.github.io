@@ -23,11 +23,11 @@ batches.
 Five discrete and interrelated definitions of quality are listed below (Garvin,
 1988):
 
-*Transcendent (excellence);
-*Product-based (amount of desireable attribute);
-*User-based (fitness for use);
-*Manufacturing-based (conformance to specification);
-*Value-based (satisfaction relative to price);
+* Transcendent (excellence);
+* Product-based (amount of desireable attribute);
+* User-based (fitness for use);
+* Manufacturing-based (conformance to specification);
+* Value-based (satisfaction relative to price);
 
 
 
