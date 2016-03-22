@@ -39,6 +39,15 @@ select {
   margin: 0 0 2em;
 }
 
+.figure {
+  text-align: center;
+}
+
+.figure img {
+  margin: 1em 0;
+  max-width: 90%;
+}
+
 .flat {
   width: 100%;
   padding: 1em 0;
