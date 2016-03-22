@@ -16,11 +16,34 @@ variation. The categories typically include:
 * Measurements: Data generated from the process that are used to evaluate its quality
 * Environment: The conditions, such as location, time, temperature, and culture in which the process operates
 
-Ishikawa diagram example
+A typical, simplistic example of an Ishikawa diagram is presented below:
+
+![](images/FishBoneDiagram.gif "Basketball Free-Throws Fish Bone Diagram")
 
 There have been identified topics for fishbone diagram cause classes in different areas of development. They are grouped into easily remembered sets. Examples are:
-The 5 M's (used in manufacturing industry): Machine (technology), Method (process), Material (Includes Raw Material, Consumables and Information.), Man Power (physical work)/Mind Power, Measurement (Inspection)
-The 8 P's (used in marketing industry): Product/Service, Price, Place, Promotion, People/personnel, Process, Physical Evidence, Publicity
+
+* The 5 M's (used in manufacturing industry): 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Machine (technology)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Method (process), 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Material (Includes Raw Material, Consumables and Information.), 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Man Power (physical work)/Mind Power, Measurement (Inspection)
+
+* The 8 P's (used in marketing industry): 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Product/Service
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Price
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Place
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Promotion
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * People/personnel
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Process
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Physical Evidence
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Publicity. 
+
 The 8 P's are primarily used in service marketing.
-The 4 S's (used in service industry): Surroundings, Suppliers, Systems, Skills
+*The 4 S's (used in service industry): 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Surroundings
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Suppliers
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Systems
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Skills
+
+
 
