@@ -16,6 +16,8 @@ button {
 div {
   width: 60em;
   margin: 0 auto;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 h1 {

@@ -19,8 +19,6 @@ sigma, 99.7% of outputs are defect free. Mean is the central tendency of the
 process, or the average of all values within the population. The standard
 deviation (?) is a measure of dispersion or variability.
 
-
-
 The upper specification limit (USL) and the lower specification limit (LSL) set
 permissible limits for the process variation. For example, the USL and LSL of a
 process may be set at 3 and -3, thus yielding a process which si 99.7% defect
