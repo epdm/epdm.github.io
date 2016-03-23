@@ -34,6 +34,24 @@
         </div>
       </div>
     </div>
+    <div class="flat flat-intro">
+      <div class="intro">
+        <p>goals of the document
+
+          overview of tqm
+
+          explanation for how the doc works, explanation of the quiz
+
+          explanatiaon youtube video</p>
+      </div>
+    </div>
+
+    <div class="flat flat-youtube">
+      <div class="youtube">
+        <iframe src="https://www.youtube.com/embed/GfbLWHT7vUU"></iframe>
+      </div>
+    </div>
+
     <div class="flat flat-toc">
       <div class="toc">
         <h3>Table of Contents</h3>

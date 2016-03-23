@@ -10,7 +10,7 @@ just as well be, say, 80 - 10 or 80 -30. There is no need for the two numbers to
 add up to the number 100, as they are measures of different things. A simple
 example of a pareto chart is presented below.
 
-![](images/pareto_chart.jpg "Pareto Chart")
+![](images/pareto_chart.png "Pareto Chart")
 
 Adding up to 100 leads to a nice symmetry. For example, if 80% of effects come
 from the top 20% of sources, then the remaining 20% of effects come from the

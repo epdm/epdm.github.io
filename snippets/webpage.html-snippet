@@ -12,7 +12,7 @@
 </ul>
 <h2 id="six-sigma">Six Sigma</h2>
 <p>Six sigma represents a set of techniques/tools for implementing process improvement. This improvement is achieved through identifying and subsequently removing the causes of defects, thus minimising variability in manufacturing and business processes. A six sigma process is ome in wich 99.99966% of all opportunities to produce some feature or part are statistically expected to be free of defects (3.4 defective features per million opportunities). A defect in this sense can be defined as any variation of a required characteristic of the product for its parts, which is far enough removed from its nominal value to precent the product from fulfilling the physical and functional requirements of the customer.</p>
-<p>Normal distribution curves are symmetrical about the mean value (?), with the total area under the curve equating to one. If a process is classified as 3 sigma, 99.7% of outputs are defect free. Mean is the central tendency of the process, or the average of all values within the population. The standard deviation (?) is a measure of dispersion or variability.</p>
+<p>Normal distribution curves are symmetrical about the mean value (μ), with the total area under the curve equating to one. If a process is classified as 3 sigma, 99.7% of outputs are defect free. Mean is the central tendency of the process, or the average of all values within the population. The standard deviation (σ) is a measure of dispersion or variability.</p>
 <div class="figure">
 <img src="images/Six%20Sigma.png" title="Six Sigma" />
 
@@ -20,22 +20,30 @@
 <p>The upper specification limit (USL) and the lower specification limit (LSL) set permissible limits for the process variation. For example, the USL and LSL of a process may be set at 3 and -3, thus yielding a process which is 99.7% defect free. USL represents a value designating an upper limit above which the process or characteristic performance is unacceptable. In the converse case, the LSL represents a value designating a lower limit, below which the process or characteristic performance is unacceptable.</p>
 <p>The relationship between yield, variability and specification limits is that essentially the specification limits provide the permissible process variations. Minimising variability therefore inherently leads to a better yield, as the probability of defects occurring is substantially mitigated. Cp and Cpk represent metrics of process quality. Cp is a measure of how capable the process is of producing the required process characteristic. Cp is known as the capability index, or design margin, and is calculated using the following:</p>
 <div class="figure">
-<img src="images/Cp%20Calculations.png" title="Calculating Cp" />
+<img src="images/CpCalculation.png" title="Calculating Process Capability" />
 
 </div>
 <p>Cpk is a measure of actual performance which takes the actual mean into account. Cpk is equal to Cp when the process mean is equal to the target, or nominal value. Cpk essentially accounts for the process mean not hitting the target value. The following calculations can be used to determine Cpk.</p>
 <div class="figure">
-<img src="images/Cpk%20Calculations.png" title="Calculating Cpk" />
+<img src="images/CpkCalculation.png" title="Calculating Cpk" />
+
+</div>
+<div class="figure">
+<img src="images/Cpk.png" title="Calculating Cpk" />
+
+</div>
+<div class="figure">
+<img src="images/KCalculation.png" title="Calculating K Value" />
 
 </div>
 <p>Poisson distribution describes the probability distribution of an event occurring with respect to time, or space. The eventual process yield can be calculated using Poisson's formula using the following, where dpu is the measured defects per unit.</p>
 <div class="figure">
-<img src="images/Poisson%20Distribution.png" title="Poisson Distribution" />
+<img src="images/PoissonsDistribution.png" title="Poisson Distribution" />
 
 </div>
 <p>As an example if average dpu=1, the probability of having a device with no defects can be calculated as:</p>
 <div class="figure">
-<img src="images/Yield%20Calculation.png" title="Yield Calculation" />
+<img src="images/Yield.png" title="Yield Calculation" />
 
 </div>
 <h2 id="relationship-between-quality-and-reliability">Relationship Between Quality and Reliability</h2>
@@ -98,7 +106,7 @@
 <h2 id="pareto">Pareto</h2>
 <p>The Pareto principle (also known as the 80 - 20 rule, the law of the vital few, and the principle of factor sparsity) states that, for many events, roughly 80% of the effects come from 20% of the causes. The term 80 - 20 is only a shorthand for the general principle at work. In individual cases, the distribution could just as well be, say, 80 - 10 or 80 -30. There is no need for the two numbers to add up to the number 100, as they are measures of different things. A simple example of a pareto chart is presented below.</p>
 <div class="figure">
-<img src="images/pareto_chart.jpg" title="Pareto Chart" />
+<img src="images/pareto_chart.png" title="Pareto Chart" />
 
 </div>
 <p>Adding up to 100 leads to a nice symmetry. For example, if 80% of effects come from the top 20% of sources, then the remaining 20% of effects come from the lower 80% of sources. This is called the &quot;joint ratio&quot;, and can be used to measure the degree of imbalance: a joint ratio of 96:4 is very imbalanced, 80:20 is significantly imbalanced, 70:30 is moderately imbalanced (Gini index: 40%), and 55:45 is just slightly imbalanced.</p>
@@ -192,6 +200,9 @@
 <p>Identify product that is beyond reasonable quality control by many (3?) standard deviations. This product has been produced by unusual circumstances - and that should be traced and eliminated.</p>
 <p>Argument: quality is conformance to requirement and can only be measured by the cost of non-conformance.</p>
 <h2 id="taguchi">Taguchi</h2>
+<center>
+test
+</center>
 <p>Taguchi defines quality as the loss imparted by the product to society from the time the product is shipped. Quality loss occurs when a product deviates from target or nominal values.</p>
 <p>Statistical methods developed to improve the quality of manufactures goods. Three principal contributions to statistics:</p>
 <ol style="list-style-type: decimal">
@@ -229,7 +240,14 @@
 <img src="images/DesignOfExperiments.png" title="Design of Experiments Cake Baking Process" />
 
 </div>
-<p>The rationale supporting the cake baking DoE approach is as follows: * <strong>Comparing ALternatives</strong> - We may want to compare the results from two different types of flour, if it turned out that flour types caused indifferent values, we could purchase from the low cost supplier. * <strong>Significant Control Factors</strong> - We may want to determine what the significant factors are. * <strong>Optimal Process Output</strong> - Enables determination of the optimal set of factors and corresponding level to achieve the exact taste and consistency. * <strong>Reducing Variability</strong> - Can the recipe be changed slightly without detriment to the responses. * <strong>Improving Process Robustness</strong> - Improving the fitness for use under varying conditions. For example, can the factors and their levels (recipe) be modified such that cake will come out nearly the same, irrespective of what oven is used.</p>
+<p>The rationale supporting the cake baking DoE approach is as follows:</p>
+<ul>
+<li><strong>Comparing ALternatives</strong> - We may want to compare the results from two different types of flour, if it turned out that flour types caused indifferent values, we could purchase from the low cost supplier.</li>
+<li><strong>Significant Control Factors</strong> - We may want to determine what the significant factors are.</li>
+<li><strong>Optimal Process Output</strong> - Enables determination of the optimal set of factors and corresponding level to achieve the exact taste and consistency.</li>
+<li><strong>Reducing Variability</strong> - Can the recipe be changed slightly without detriment to the responses.</li>
+<li><strong>Improving Process Robustness</strong> - Improving the fitness for use under varying conditions. For example, can the factors and their levels (recipe) be modified such that cake will come out nearly the same, irrespective of what oven is used.</li>
+</ul>
 <p>The pertinent benefits of the DoE approach are as follows:</p>
 <ol style="list-style-type: decimal">
 <li>Quick, economical and efficient method to identify most significant input factors</li>
@@ -240,17 +258,14 @@
 <li>Explore relationship of response and control factors.</li>
 <li>Cheaper than reducing fabrication or simulation bottlenecks.</li>
 </ol>
-<h2 id="software-improvement-tools">Software Improvement Tools</h2>
-<p>Among other uses, software improvement tools can simplify TQM tasks, for example by generating legible, powerful diagrams. The following seven tools can all be improved by the use of software:</p>
+<h2 id="software-process-improvement-tools">Software Process Improvement Tools</h2>
+<p>A Software process is defined as the system of all tasks and the supporting tools, standards, methods, and practices involved in the production and evolution of a software product. TQM tools, such as Cause &amp; Effect Diagrams, Pareto Charts and Check Sheets can all be used to improve software processes.</p>
+<p>One approach that can be used to improve a business' software process is the PDCA cycle - Plan, Do, Check and Act (The role of Software Process Improvement into Total Quality Management: an Industrial Experience, 2000). This approach can be split up into the following four steps:</p>
 <ul>
-<li>Cause and Effect Diagrams</li>
-<li>Checksheets</li>
-<li>Control Charts</li>
-<li>Graphs (Run Charts)</li>
-<li>Histograms</li>
-<li>Pareto Charts</li>
-<li>Scatter Diagrams</li>
-<li>Teamwork systems such as Pathmaker, JIRA, and Trello.</li>
+<li>Planning: involves the reviewing of data and information, establishing and documenting action plans and their deployment in their specific areas</li>
+<li>Do: involves the execution of the plans</li>
+<li>Check: involves performing reviews in their specific areas, integrating leadership and lower level departments</li>
+<li>Act: involves implementing any system changes and the fulfillment of the goals, following the reviews.</li>
 </ul>
 <h2 id="references">References</h2>
 <ul>
@@ -265,4 +280,5 @@
 <li>TQM Software Tools, <a href="http://www.emeraldinsight.com/doi/pdfplus/10.1108/09544789610125333" class="uri">http://www.emeraldinsight.com/doi/pdfplus/10.1108/09544789610125333</a></li>
 <li>DoE barriers, <a href="http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846" class="uri">http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846</a></li>
 <li>ISO 9000 Case Studies, <a href="http://www.bsigroup.com/en-GB/iso-9001-quality-management/case-studies" class="uri">http://www.bsigroup.com/en-GB/iso-9001-quality-management/case-studies</a></li>
+<li>The role of software process improvement into total quality management: an industrial experience; R. L. Della Volpe, 2000</li>
 </ul>

@@ -13,11 +13,11 @@ product for its parts, which is far enough removed from its nominal value to
 precent the product from fulfilling the physical and functional requirements of
 the customer.
 
-Normal distribution curves are symmetrical about the mean value (?), with the
+Normal distribution curves are symmetrical about the mean value (μ), with the
 total area under the curve equating to one. If a process is classified as 3
 sigma, 99.7% of outputs are defect free. Mean is the central tendency of the
 process, or the average of all values within the population. The standard
-deviation (?) is a measure of dispersion or variability.
+deviation (σ) is a measure of dispersion or variability.
 
 
 ![](images/Six Sigma.png "Six Sigma")
@@ -40,7 +40,7 @@ is of producing the required process characteristic. Cp is known as the
 capability index, or design margin, and is calculated using the following:
 
 
-![](images/Cp Calculations.png "Calculating Cp")
+![](images/CpCalculation.png "Calculating Process Capability")
 
 
 Cpk is a measure of actual performance which takes the actual mean into account.
@@ -49,7 +49,13 @@ value. Cpk essentially accounts for the process mean not hitting the target
 value. The following calculations can be used to determine Cpk.
 
 
-![](images/Cpk Calculations.png "Calculating Cpk")
+![](images/CpkCalculation.png "Calculating Cpk")
+
+
+![](images/Cpk.png "Calculating Cpk")
+
+
+![](images/KCalculation.png "Calculating K Value")
 
 
 Poisson distribution describes the probability distribution of an event
@@ -58,13 +64,13 @@ calculated using Poisson's formula using the following, where dpu is the
 measured defects per unit.
 
 
-![](images/Poisson Distribution.png "Poisson Distribution")
+![](images/PoissonsDistribution.png "Poisson Distribution")
 
 
 As an example if average dpu=1, the probability of having a device with no
 defects can be calculated as:
 
 
-![](images/Yield Calculation.png "Yield Calculation")
+![](images/Yield.png "Yield Calculation")
 
 

@@ -46,11 +46,11 @@ product for its parts, which is far enough removed from its nominal value to
 precent the product from fulfilling the physical and functional requirements of
 the customer.
 
-Normal distribution curves are symmetrical about the mean value (?), with the
+Normal distribution curves are symmetrical about the mean value (μ), with the
 total area under the curve equating to one. If a process is classified as 3
 sigma, 99.7% of outputs are defect free. Mean is the central tendency of the
 process, or the average of all values within the population. The standard
-deviation (?) is a measure of dispersion or variability.
+deviation (σ) is a measure of dispersion or variability.
 
 
 ![](images/Six Sigma.png "Six Sigma")
@@ -73,7 +73,7 @@ is of producing the required process characteristic. Cp is known as the
 capability index, or design margin, and is calculated using the following:
 
 
-![](images/Cp Calculations.png "Calculating Cp")
+![](images/CpCalculation.png "Calculating Process Capability")
 
 
 Cpk is a measure of actual performance which takes the actual mean into account.
@@ -82,7 +82,13 @@ value. Cpk essentially accounts for the process mean not hitting the target
 value. The following calculations can be used to determine Cpk.
 
 
-![](images/Cpk Calculations.png "Calculating Cpk")
+![](images/CpkCalculation.png "Calculating Cpk")
+
+
+![](images/Cpk.png "Calculating Cpk")
+
+
+![](images/KCalculation.png "Calculating K Value")
 
 
 Poisson distribution describes the probability distribution of an event
@@ -91,14 +97,14 @@ calculated using Poisson's formula using the following, where dpu is the
 measured defects per unit.
 
 
-![](images/Poisson Distribution.png "Poisson Distribution")
+![](images/PoissonsDistribution.png "Poisson Distribution")
 
 
 As an example if average dpu=1, the probability of having a device with no
 defects can be calculated as:
 
 
-![](images/Yield Calculation.png "Yield Calculation")
+![](images/Yield.png "Yield Calculation")
 
 
 
@@ -204,7 +210,7 @@ just as well be, say, 80 - 10 or 80 -30. There is no need for the two numbers to
 add up to the number 100, as they are measures of different things. A simple
 example of a pareto chart is presented below.
 
-![](images/pareto_chart.jpg "Pareto Chart")
+![](images/pareto_chart.png "Pareto Chart")
 
 Adding up to 100 leads to a nice symmetry. For example, if 80% of effects come
 from the top 20% of sources, then the remaining 20% of effects come from the
@@ -372,6 +378,8 @@ cost of non-conformance.
 Taguchi
 -------
 
+<center>test</center>
+
 Taguchi defines quality as the loss imparted by the product to society from the
 time the product is shipped. Quality loss occurs when a product deviates from
 target or nominal values.
@@ -465,6 +473,7 @@ highlighting the factors, levels and typical responses.
 
 
 The rationale supporting the cake baking DoE approach is as follows:
+
 * **Comparing ALternatives** - We may want to compare the results from two different types of flour, if it turned out that flour types caused indifferent values, we could purchase from the low cost supplier.
 * **Significant Control Factors** - We may want to determine what the significant factors are.
 * **Optimal Process Output** - Enables determination of the optimal set of factors and corresponding level  to achieve the exact taste and consistency.
@@ -483,21 +492,27 @@ time.
 6. Explore relationship of response and control factors.
 7. Cheaper than reducing fabrication or simulation bottlenecks.
 
-Software Improvement Tools
---------------------------
+Software Process Improvement Tools
+----------------------------------
 
-Among other uses, software improvement tools can simplify TQM tasks, for
-example by generating legible, powerful diagrams. The following seven tools can all be
-improved by the use of software:
+A Software process is defined as the system of all tasks and the supporting
+tools, standards, methods, and practices involved in the production and evolution
+of a software product. TQM tools, such as Cause & Effect Diagrams, Pareto Charts and
+Check Sheets can all be used to improve software processes.
 
-* Cause and Effect Diagrams
-* Checksheets
-* Control Charts
-* Graphs (Run Charts)
-* Histograms
-* Pareto Charts
-* Scatter Diagrams
-* Teamwork systems such as Pathmaker, JIRA, and Trello.
+One approach that can be used to improve a business' software process is the PDCA
+cycle - Plan, Do, Check and Act (The role of Software Process Improvement into Total
+Quality Management: an Industrial Experience, 2000). This approach can be split up into
+the following four steps:
+
+* Planning: involves the reviewing of data and information, establishing and documenting
+action plans and their deployment in their specific areas
+* Do: involves the execution of the plans
+* Check: involves performing reviews in their specific areas, integrating leadership and lower
+level departments
+* Act: involves implementing any system changes and the fulfillment of the goals, following
+the reviews.
+
 
 References
 ----------
@@ -522,3 +537,5 @@ Sha'Ri Mohd Yusof, Elaine Aspinwall, 2000
 <http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846>
 * ISO 9000 Case Studies,
 <http://www.bsigroup.com/en-GB/iso-9001-quality-management/case-studies>
+* The role of software process improvement into total quality management: an industrial experience;
+R. L. Della Volpe, 2000

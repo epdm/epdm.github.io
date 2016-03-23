@@ -22,3 +22,5 @@ Sha'Ri Mohd Yusof, Elaine Aspinwall, 2000
 <http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846>
 * ISO 9000 Case Studies,
 <http://www.bsigroup.com/en-GB/iso-9001-quality-management/case-studies>
+* The role of software process improvement into total quality management: an industrial experience;
+R. L. Della Volpe, 2000

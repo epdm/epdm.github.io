@@ -29,6 +29,7 @@ highlighting the factors, levels and typical responses.
 
 
 The rationale supporting the cake baking DoE approach is as follows:
+
 * **Comparing ALternatives** - We may want to compare the results from two different types of flour, if it turned out that flour types caused indifferent values, we could purchase from the low cost supplier.
 * **Significant Control Factors** - We may want to determine what the significant factors are.
 * **Optimal Process Output** - Enables determination of the optimal set of factors and corresponding level  to achieve the exact taste and consistency.

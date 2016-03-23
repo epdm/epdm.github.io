@@ -2,6 +2,8 @@
 Taguchi
 -------
 
+<center>test</center>
+
 Taguchi defines quality as the loss imparted by the product to society from the
 time the product is shipped. Quality loss occurs when a product deviates from
 target or nominal values.
