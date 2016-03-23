@@ -24,5 +24,3 @@ Sha'Ri Mohd Yusof, Elaine Aspinwall, 2000
 <http://www.bsigroup.com/en-GB/iso-9001-quality-management/case-studies>
 * The role of software process improvement into total quality management: an industrial experience;
 R. L. Della Volpe, 2000
-Taguchi Orthogonal Arrays:
-<http://www.york.ac.uk/depts/maths/tables/orthogonal.htm> 

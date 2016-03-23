@@ -9,93 +9,88 @@
 
       <!-- Definition of Quality -->
       <p>
-        Definition of Quality
+        Which of the following characteristics best define the "Quality" of a product?
       </p>
 
       <select class="form-control quiz">
         <option></option>
-        <option value="correct"></option>
-        <option                ></option>
-        <option                ></option>
-        <option                ></option>
+        <option                >Reliability</option>
+        <option                >Conformance</option>
+        <option                >Aesthetics</option>
+        <option value="correct">All of the above</option>
       </select>
 
       <!-- Six Sigma -->
       <p>
-        Six Sigma
+        Given a threshold voltage of a MOS transistor has a nominal value of
+        0.5V, with tolerance +- 0.1V. The process mean is at the target value
+        (0.5V), and the standard deviation for the process is 0.05V. What then
+        is C<sub>p</sub>?
       </p>
 
       <select class="form-control quiz">
         <option></option>
-        <option value="correct"></option>
-        <option                ></option>
-        <option                ></option>
-        <option                ></option>
+        <option value="correct">2/3</option>
+        <option                >0</option>
+        <option                >1/3</option>
+        <option                >1/2</option>
       </select>
 
       <!-- Relationship Between Quality and Reliability -->
-      <p>
-        Relationship Between Quality and Reliability
-      </p>
-
-      <select class="form-control quiz">
-        <option></option>
-        <option value="correct"></option>
-        <option                ></option>
-        <option                ></option>
-        <option                ></option>
-      </select>
+      <!-- No question. -->
 
       <!-- Impact of Quality on Cycle Time and Cost -->
       <p>
-        Impact of Quality on Cycle Time and Cost
+        For a market window of 24 months, if you aim to design a high-quality
+        product, and you spend little capital on design and manufacture, how
+        quickly should you expect the product to reach market?
       </p>
 
       <select class="form-control quiz">
         <option></option>
-        <option value="correct"></option>
-        <option                ></option>
-        <option                ></option>
-        <option                ></option>
+        <option value="correct">12+ weeks</option>
+        <option                >4-5 weeks</option>
+        <option                >1-2 weeks</option>
+        <option                >9001 weeks</option>
       </select>
 
       <!-- Check Sheets -->
       <p>
-        Check Sheets
+        Which of these characteristics do not describe check sheets?
       </p>
 
       <select class="form-control quiz">
         <option></option>
-        <option value="correct"></option>
-        <option                ></option>
-        <option                ></option>
-        <option                ></option>
+        <option                >They're quick and easy to fill out.</option>
+        <option                >Information gathered can be either qualitative or quantitative.</option>
+        <option value="correct">Can help locate confounded control factors.</option>
+        <option                >Can help track process progression.</option>
       </select>
 
       <!-- Pareto -->
       <p>
-        Pareto
+        What do the 80/20 refer to in the context of the Pareto rule?
       </p>
 
       <select class="form-control quiz">
         <option></option>
-        <option value="correct"></option>
-        <option                ></option>
-        <option                ></option>
-        <option                ></option>
+        <option                >80% of a process is parallelisable.</option>
+        <option                >20% of employees work at about 80% efficiency.</option>
+        <option                >Without TQM, you will be working at 80/20 = 4% capacity.</option>
+        <option value="correct">80% of the defects come from 20% of the sources.</option>
       </select>
 
       <!-- Fishbone Ishikawa Diagrams -->
       <p>
-        Fishbone Ishikawa Diagrams
+        What does a Fishbone-Ishikawa diagram aim to describe?
       </p>
 
       <select class="form-control quiz">
         <option></option>
-        <option value="correct"></option>
-        <option                ></option>
-        <option                ></option>
-        <option                ></option>
+        <option value="correct">Given an effect, the diagram visualises each possible cause.</option>
+        <option                >How efficient a fishing process is.</option>
+        <option                >How frequently defects occur.</option>
+        <option                >Long division.</option>
       </select>
 
       <!-- Cause Screening -->
@@ -107,7 +102,7 @@
         <option></option>
         <option value="correct">Cause Screening is for finding the source of process variation.</option>
         <option                >Cause Screening requires intense understanding of the "middle" steps in a process.</option>
-        <option                >Cause Screening focuses on considering the non-critical steps in a process.</option>
+        <option                >Cause Screening only considers the non-critical steps in a process.</option>
         <option                >Cause Screening is named that way because it was developed by TV screen manufacturers.</option>
       </select>
 
@@ -178,15 +173,15 @@
 
       <!-- Software Improvement Tools -->
       <p>
-        Which of the following are a primary use for software improvement tools?
+        Which of the following is not a step in the PDCA cycle?
       </p>
 
       <select class="form-control quiz">
         <option></option>
-        <option value="correct">Simplify TQM tasks like building charts.</option>
-        <option                >Provide a means to sell products online.</option>
-        <option                >The Facebook.</option>
-        <option                >Interact with customers in an invasive way.</option>
+        <option value="correct">Cleaning.</option>
+        <option                >Planning.</option>
+        <option                >Doing.</option>
+        <option                >Acting.</option>
       </select>
 
 

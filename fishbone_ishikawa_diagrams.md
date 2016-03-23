@@ -20,9 +20,11 @@ quality
 * Environment: The conditions, such as location, time, temperature, and culture
 in which the process operates
 
-A typical, simplistic example of an Ishikawa diagram is presented below:
+A typical, simplistic example of an Ishikawa diagram is presented in **Figure 5**.
 
 ![](images/FishBoneDiagram.gif "Basketball Free-Throws Fish Bone Diagram")
+
+<center>**Figure 5**: A simple example of a Fishbone diagram.</center>
 
 There have been identified topics for fishbone diagram cause classes in
 different areas of development. They are grouped into easily remembered sets,
@@ -34,6 +36,8 @@ examples of which are presented below.
     - Material (Includes Raw Material, Consumables and Information)
     - Man/mind Power (physical work)
     - Measurement (Inspection)
+    
+    &nbsp;
 
 * The 8 P's (primarily used in service marketing industry):
     - Product/Service
@@ -44,6 +48,8 @@ examples of which are presented below.
     - Process
     - Physical Evidence
     - Publicity
+
+    &nbsp;
 
 * The 4 S's (used in service industry):
     - Surroundings

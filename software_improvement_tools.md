@@ -13,10 +13,10 @@ Quality Management: an Industrial Experience, 2000). This approach can be split 
 the following four steps:
 
 * Planning: involves the reviewing of data and information, establishing and documenting
-action plans and their deployment in their specific areas
-* Do: involves the execution of the plans
+action plans and their deployment in their specific areas.
+* Do: involves the execution of the plans.
 * Check: involves performing reviews in their specific areas, integrating leadership and lower
-level departments
+level departments.
 * Act: involves implementing any system changes and the fulfillment of the goals, following
 the reviews.
 

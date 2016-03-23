@@ -2,7 +2,7 @@
 Teamwork
 --------
 
-Teamwork should encompass the following:
+Teamwork should encompass the following concepts:
 
 * Knowledge
 * Design
@@ -21,4 +21,8 @@ Aspects related to Teamwork involve:
 * Training teamwork, along with tools and techniques of quality control, and
 philosophy of quality culture
 
+A diagram depicting the core principles of Teamwork can be seen in **Figure 6**.
+
 ![](images/teamwork-1.png "Kondo Pillars")
+
+<center>**Figure 6**: Principles of Teamwork.</center>

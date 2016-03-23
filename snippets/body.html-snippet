@@ -2,8 +2,8 @@
 Definition of Quality
 ---------------------
 
-**Quality** is a somewhat abstract, subjective quality with people
-interpreting it differently. Like the 'theory of relativity' quality is
+**Quality** is a somewhat abstract, subjective concept with people
+interpreting it differently. Like the 'theory of relativity', quality is
 expressed as a relative concept and can be different things to different people.
 For example: 
 
@@ -13,21 +13,20 @@ can be quality car for other customers."*
 
 
 Therefore, consumers may tend to focus on the eventual specification quality of a product/service, or how it compares
-with the competing companies in the marketplace. However, on the contrary,
-producers might measure the conformance quality, or the degree to which the
-product/service was produced correctly. The producer of a product may focus on
-process variation minimisation, to achieve uniformity amongst and between
-batches.
+with the competing companies in the marketplace. However, producers might measure the 
+conformance quality, or the degree to which the product/service was produced correctly.
+The producer of a product may focus on process variation minimisation, to achieve
+uniformity amongst and between batches.
 
 
 Five discrete and interrelated definitions of quality are listed below (Garvin,
 1988):
 
-* Transcendent (excellence);
-* Product-based (amount of desireable attribute);
-* User-based (fitness for use);
-* Manufacturing-based (conformance to specification);
-* Value-based (satisfaction relative to price);
+* Transcendent (excellence)
+* Product-based (amount of desireable attribute)
+* User-based (fitness for use)
+* Manufacturing-based (conformance to specification)
+* Value-based (satisfaction relative to price)
 
 
 
@@ -35,15 +34,15 @@ Five discrete and interrelated definitions of quality are listed below (Garvin,
 Six Sigma
 ---------
 
-Six sigma represents a set of techniques/tools for implementing process
+Six sigma represents a set of techniques and tools for implementing process
 improvement. This improvement is achieved through identifying and subsequently
 removing the causes of defects, thus minimising variability in manufacturing and
-business processes. A six sigma process is ome in wich 99.99966% of all
+business processes. A six sigma process is one in which 99.99966% of all
 opportunities to produce some feature or part are statistically expected to be
 free of defects (3.4 defective features per million opportunities). A defect in
 this sense can be defined as any variation of a required characteristic of the
 product for its parts, which is far enough removed from its nominal value to
-precent the product from fulfilling the physical and functional requirements of
+prevent the product from fulfilling the physical and functional requirements of
 the customer.
 
 Normal distribution curves (**Figure 1**) are symmetrical about the mean value (μ), with the
@@ -54,11 +53,12 @@ deviation (σ) is a measure of dispersion or variability.
 
 
 ![](images/Six Sigma.png "Six Sigma")
+
 <center>**Figure 1**: A normal distribution curve, with the standard deviations from the mean marked.</center>
 
 The upper specification limit (USL) and the lower specification limit (LSL) set
 permissible limits for the process variation. For example, the USL and LSL of a
-process may be set at 3 and -3, thus yielding a process which is 99.7% defect
+process may be set at 3σ and -3σ, thus yielding a process which is 99.7% defect
 free. USL represents a value designating an upper limit above which the process
 or characteristic performance is unacceptable. In the converse case, the LSL
 represents a value designating a lower limit, below which the process or
@@ -70,15 +70,16 @@ Minimising variability therefore inherently leads to a better yield, as the
 probability of defects occurring is substantially mitigated.  Cp and Cpk
 represent metrics of process quality. Cp is a measure of how capable the process
 is of producing the required process characteristic. Cp is known as the
-capability index, or design margin, and is calculated using the following:
+capability index, or design margin, and is calculated using the following
+equation:
 
 
 ![](images/CpCalculation.png "Calculating Process Capability")
 
 
-Cpk is a measure of actual performance which takes the actual mean into account.
+Cpk is a measure of actual performance which takes the operating mean into account.
 Cpk is equal to Cp when the process mean is equal to the target, or nominal
-value. Cpk essentially accounts for the process mean not hitting the target
+value. Cpk accounts for the process mean not hitting the target
 value. The following calculations can be used to determine Cpk.
 
 
@@ -91,16 +92,16 @@ value. The following calculations can be used to determine Cpk.
 ![](images/KCalculation.png "Calculating K Value")
 
 
-Poisson distribution describes the probability distribution of an event
+Poisson distributions describes the probability distribution of an event
 occurring with respect to time, or space. The eventual process yield can be
-calculated using Poisson's formula using the following, where dpu is the
+calculated using Poisson's formula as presented below, where dpu is the
 measured defects per unit.
 
 
 ![](images/PoissonsDistribution.png "Poisson Distribution")
 
 
-As an example if average dpu=1, the probability of having a device with no
+As an example, if average `dpu = 1`, the probability of having a device with no
 defects can be calculated as:
 
 
@@ -112,7 +113,7 @@ Relationship Between Quality and Reliability
 --------------------------------------------
 
 Quality assures the product will work after assembly, whereas reliability
-provides the probability that the design will perform its intended function for
+relates to the probability that the design will perform its intended function for
 a designated period of time under specified conditions. Engineering process
 reliability is the fundamental concept that is meant to anticipate quality
 failures over the life cycle of a product. Variation of the process output may
@@ -124,22 +125,23 @@ as they need a systems engineering approach. Quality is a snapshot at the start
 of life and mainly related to control of lower level product specifications and
 reliability is (as part of systems engineering) more of a system level motion
 picture of the day-by-day operation for many years. Time zero defects are
-manufacturing mistakes that escaped quality control, whereas, the additionald
+manufacturing mistakes that escaped quality control, whereas the additional
 effects that appear over time are 'reliability defects'.
 
 Impact of Quality on Cycle Time and Cost
 ----------------------------------------
 
 These three project managment constraints are traditionally represented in
-what is known as the "Iron Triangle", depicted in the **Figure 2**.
+what is known as the "Iron Triangle", depicted in **Figure 2**.
 
 ![](images/iron_triangle.jpg "The Iron Triangle")
-<center>**Figure 2**: The Iron Triagle.</center>
+
+<center>**Figure 2**: The Iron Triangle.</center>
 
 The relationship between the three constraints means that management staff
 end up having to make a choice between two out of the three of them; in
-other words, "Pick any two". This usually ends up with the three following
-options:
+other words, "Pick any two". Accordingly, one of the following is likely to
+occur:
 
 * Designing a product to a high standard with a low time to market, at the cost of being expensive
 * Designing a product quickly and at a low cost, at the expense of the product quality
@@ -166,7 +168,7 @@ following eight quality management principles:
 Global adoption of the ISO 9000 standard is growing annually - the number of
 global ISO certified organisations recorded in the world by the end of 2014 was
 1,138,155, up from 409,421 by the end of 2000. The reason for the global adoption
-can be attributed to a number of the following reasons:
+can be attributed to a number of the following:
 
 1. Creates a more efficient, effective operation
 2. Increases customer satisfaction and retention
@@ -177,27 +179,32 @@ can be attributed to a number of the following reasons:
 7. Increases profit
 8. Reduces waste and increases productivity
 9. Common tool for standardization
-
-A range of Case Studies (ISO 9000 Case Studies, 2016) can be viewed to support the
-claims made.
+http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846
+A range of [Case
+Studies](http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846)
+can be viewed to support the claims made.
 
 Check Sheets
 ------------
 
-A check sheet is a form used to collect data in real time at the location
-where the data is generated. A simple example of a check sheet is presented below.
+A Check Sheet is a form used to collect data in real time at the location
+where the data is generated. A simple example of a Check Sheet can be seen in **Figure 3**.
 
 ![](images/CheckSheet1.png "Simple Check Sheet")
 
-The pertinent advantages of utilising check sheets for gathering data are as follows:
+<center>**Figure 3**: A simple example of a Check Sheet.</center>
+
+The pertinent advantages of utilising Check Sheets for gathering data are as follows:
 
 1. They are a quick, very easy and efficient means for recording desired information.
 2. Information gathered can be either qualitative or quantitative.
 
-Check sheets are generally be used to:
+Check Sheets can generally be used to:
 
-1. Quantify defects by type, location, and cause (e.g. from a machine or worker)
-2. Keep track of the completion of steps in a multi-step procedure (i.e. be used as a checklist)
+1. Quantify defects by type, location, and cause (e.g. from a machine or
+worker).
+2. Keep track of the completion of steps in a multi-step procedure (i.e. be used
+as a checklist).
 3. Check the shape of the probability distribution of a process.
 
 Pareto
@@ -207,29 +214,32 @@ The Pareto principle (also known as the 80 - 20 rule, the law of the vital few,
 and the principle of factor sparsity) states that, for many events, roughly 80%
 of the effects come from 20% of the causes. The term 80 - 20 is only a shorthand
 for the general principle at work. In individual cases, the distribution could
-just as well be, say, 80 - 10 or 80 -30. There is no need for the two numbers to
+just as well be, say, 80 - 10 or 80 - 30. There is no need for the two numbers to
 add up to the number 100, as they are measures of different things. A simple
-example of a pareto chart is presented below.
+example of a pareto chart is presented in **Figure 4**.
 
 ![](images/pareto_chart.png "Pareto Chart")
 
-Adding up to 100 leads to a nice symmetry. For example, if 80% of effects come
-from the top 20% of sources, then the remaining 20% of effects come from the
+<center>**Figure 4**: A simple example of a Pareto Chart.</center>
+
+If the two values sum to 100, this leads to a nice symmetry. For example, if 80%
+of effects come from the top 20% of sources, then the remaining 20% of effects
+come from the
 lower 80% of sources. This is called the "joint ratio", and can be used to
-measure the degree of imbalance: a joint ratio of 96:4 is very imbalanced, 80:20
+measure the degree of imbalance. For example, a joint ratio of 96:4 is very imbalanced, 80:20
 is significantly imbalanced, 70:30 is moderately imbalanced (Gini index: 40%), and
 55:45 is just slightly imbalanced.
 
 This principle is particularly prominent in the field of Software Engineering,
 as highlighted by the following examples:
 
-Microsoft noted that by fixing the top 20% of the most-reported bugs, 80% of the
+* Microsoft noted that by fixing the top 20% of the most-reported bugs, 80% of the
 related errors and crashes in a given system would be eliminated.
 
-In load testing, it is common practice to estimate that 80% of the traffic occurs
+* In load testing, it is common practice to estimate that 80% of the traffic occurs
 during 20% of the time.
 
-In Software Engineering, Lowell Arthur expressed a corollary principle: "20 percent
+* In Software Engineering, Lowell Arthur expressed a corollary principle: "20 percent
 of the code has 80 percent of the errors. Find them, fix them!"
 
 Fishbone Ishikawa Diagrams
@@ -253,9 +263,11 @@ quality
 * Environment: The conditions, such as location, time, temperature, and culture
 in which the process operates
 
-A typical, simplistic example of an Ishikawa diagram is presented below:
+A typical, simplistic example of an Ishikawa diagram is presented in **Figure 5**.
 
 ![](images/FishBoneDiagram.gif "Basketball Free-Throws Fish Bone Diagram")
+
+<center>**Figure 5**: A simple example of a Fishbone diagram.</center>
 
 There have been identified topics for fishbone diagram cause classes in
 different areas of development. They are grouped into easily remembered sets,
@@ -267,6 +279,8 @@ examples of which are presented below.
     - Material (Includes Raw Material, Consumables and Information)
     - Man/mind Power (physical work)
     - Measurement (Inspection)
+    
+    &nbsp;
 
 * The 8 P's (primarily used in service marketing industry):
     - Product/Service
@@ -277,6 +291,8 @@ examples of which are presented below.
     - Process
     - Physical Evidence
     - Publicity
+
+    &nbsp;
 
 * The 4 S's (used in service industry):
     - Surroundings
@@ -310,7 +326,7 @@ approach.
 Teamwork
 --------
 
-Teamwork should encompass the following:
+Teamwork should encompass the following concepts:
 
 * Knowledge
 * Design
@@ -329,127 +345,154 @@ Aspects related to Teamwork involve:
 * Training teamwork, along with tools and techniques of quality control, and
 philosophy of quality culture
 
+A diagram depicting the core principles of Teamwork can be seen in **Figure 6**.
+
 ![](images/teamwork-1.png "Kondo Pillars")
+
+<center>**Figure 6**: Principles of Teamwork.</center>
 
 Multi-voting
 ------------
 
-Allow a group to narrow down a list of options into a manageable size for
-further consideration. Useful for initiating a selection process after
-brainstorming. Multivoting is a group decision-making technique used to reduce a long list of items to a manageable number by means of a structured series of votes. The result is a short list identifying what is important to the team.
+Mutli-voting allows a group to narrow down a list of options into a manageable size for
+further consideration. It is useful for initiating a selection process after
+brainstorming. Multivoting is a group decision-making technique used to reduce a
+long list of items to a manageable number by means of a structured series of
+votes. The result is a short list identifying what is deemed important to the team.
 
-Sometimes referred to as `N/3` voting - for N options, each member of the group
+Sometimes referred to as `N/3` voting - for `N` options, each member of the group
 selects `N/3` of the options as a means for partial-ordering the options by
 importance.
 
-Multivoting Procedures
+Multivoting Procedures:
+
 * Step 1 - Work from a large list
 * Step 2 - Assign letter to each item
 * Step 3 - Vote
 * Step 4 - Tally the votes
 * Step 5 - Repeat
 
-Multivoting Rule of Thumb
-* Number on Team - Eliminate items with
-* 5 or fewer  - 0, 1, or 2 votes
-* 6 to 15  - 3 or fewer votes
-* more than 15 - 4 or fewer votes
+Multivoting Rule of Thumb:
+
+Size of Team   Eliminate items with
+-------------  ---------------------
+5 or fewer     0, 1, or 2 votes
+6 to 15        3 or fewer votes
+more than 15   4 or fewer votes
 
 Statistical Process Control
 ---------------------------
 
-Initially developed during the second world war. Uses a process of (physical)
-inspection to separate good products from bad.
+Statistical process control (SPC) is a method of quality control which uses
+statistical methods. SPC is applied in order to monitor and control a process.
+Monitoring and controlling the process ensures that it operates at its full
+potential. In this case, the process can make as many conforming
+products as possible while minimising waste. SPC can be applied to any process where the "conforming product"
+(product meeting specifications) output can be measured. Key tools used in SPC
+include control charts; a focus on continuous improvement; and the design of
+experiments. An example of a process where SPC is applied is manufacturing
+lines. It uses a process of physical inspection to separate good products from
+bad.
 
-* Developing control charts: a production process is in statistical control if
-the chart's measurements vary (randomly in some distribution) within the control
-limits
-* Accepting sampling methods
+A key part of statistical process control is producing contorl charts (**Figure
+7**)
+which can be used for visualising effects of eliminating process issues over
+time.
 
-The achievement of quality should not be considered as separate from the
-achievement of production.
+![](images/quality-control-chart.png "Quality Control Charts")
 
-Identify product that is beyond reasonable quality control by many (3?) standard
-deviations. This product has been produced by unusual circumstances - and that
-should be traced and eliminated.
+<center>**Figure 7**: Quality Control Chart</center>
 
-Argument: quality is conformance to requirement and can only be measured by the
-cost of non-conformance.
+
+### Objective analysis of variation
+
+SPC must be practiced in 2 phases: The first phase is the initial establishment
+of the process, and the second phase is the regular production use of the
+process. In the second phase, a decision of the period to be examined must be
+made, depending upon the change in 4 - M conditions (Man, Machine, Material,
+Method) and wear rate of parts used in the manufacturing process (machine parts,
+jigs, and fixture).
+
+### Emphasis on early detection
+
+An advantage of SPC over other methods of quality control, such as "inspection",
+is that it emphasizes early detection and prevention of problems, rather than
+the correction of problems after they have occurred.
+
+### Increasing rate of production
+
+In addition to reducing waste, SPC can lead to a reduction in the time required
+to produce the product. SPC makes it less likely the finished product will need
+to be reworked upon completion.
+
+### Limitations
+
+SPC is applied to reduce or eliminate process waste. This, in turn, eliminates
+the need for the process step of post-manufacture inspection. The success of SPC
+relies not only on the skill with which it is applied, but also on how suitable
+or amenable the process is to SPC. In some cases, it may be difficult to judge
+when the application of SPC is appropriate.
+
 
 Taguchi
 -------
 
 The Taguchi approach to Design of Experiments (DoE) necessitates the use of
 orthogonal arrays to implement fractional factorial experiments. Orthogonal in
-this sense essentially states that 
+this sense essentially states that each control factor in the experiment is
+independent of each other and can thus be evaluated independently.  The general
+approach to establishing Taguchi experiments is a three step process, as listed
+below:
+
+1. Identify the number of control factors required.
+2. Select the number of level settings for each control factor.
+3. Select an appropriate pre-defined Taguchi Array depending on the number of
+control factors and levels.
+
+The three step process shall essentially define the number of experimental runs
+required. As an example, **Figure 8** below represents a L9 orthogonal array which
+accounts for 4 control factors operating with 3 levels. It should be noted that
+there are an equal number of level 1, 2 and 3 settings across the nine
+experiments. In addition, there are an equal number of 1, 2 and 3 level settings
+for every other factor across all experimental runs.
 
 
-A range of Taguchi Orthogonal Arrays is available for reference.
+![](images/L9TaguchiArray.png "L9 Taguchi Array")
+
+<center>**Figure 8**: An example of a Taguchi Array.</center>
 
 
 
+A more comprehensive list of available [Taguchi
+Arrays](http://www.york.ac.uk/depts/maths/tables/orthogonal.htm) can be
+consulted. The Taguchi process enables the addition of noise factors into the
+experiment. The noise is introduced into each run, with the resulting variation
+quanitfied as a comparable Signal to Noise Ratio (SNR). Control factor settings
+that minimise SNR are chosen to yield the most robust process possible. Noise
+added experiments are performed using duplicate Taguchi arrays to model the
+addition of the noise contol factors. An L9 Taguchi array with noise is
+presented in Figure 9 below.
 
 
+![](images/TaguchiArraywithNoise.png "Taguchi Array with Noise")
 
-Taguchi defines quality as the loss imparted by the product to society from the
-time the product is shipped. Quality loss occurs when a product deviates from
-target or nominal values.
+<center>**Figure 9**: An example of a Taguchi Array with noise.</center>
 
-Statistical methods developed to improve the quality of manufactures goods.
-Three principal contributions to statistics:
+The confirmation run is a crucial requirement when using Taguchi Arrays. Confirmation
+runs are needed in order to validate experimental success or identify problems with
+the experiment. These problems may potentially manifest themselves in the form of
+factors left out of the experiment, or interactions between the included control
+factors. The underlying advantages and limitations of Taguchi's approach to
+fractional factorial experiments are presented below.
 
-1. Specific loss function `L(x) = k(x-N)2`
-2. The philosophy of off-line quality control
-3. Innovation in the design of experiments
+Advantages:
 
-Taguchi believed the best opportunity to eliminate variation is during the
-design of a product and its manufacturing process. Therefore he developed a
-strategy for quality engineering. There are 3 stages:
-
-1. System Design - Conceptual level
-2. Parameter (measure) design - nominal values of the various dimensions and
-design parameters need to be set. Robustification.
-3. Tolerance design - With a successfully completed parameter design, and an
-understanding of the effect that the various parameters have on performance,
-resources can be focused on reducing and controlling variation in the critical
-few dimensions.
-
-TAGUCHI ON QUALITY: Quality has been defined by many as; "being within
-specifications," "zero defects," or "customer satisfaction." However, these
-definitions do not offer a method of obtaining quality or a means of relating
-quality to cost. Taguchi proposes a holistic view of quality which relates
-quality to cost, not just to the manufacturer at the time of production, but to
-the customer and society as a whole (Phadke, 1989). Taguchi defines quality as,
-"The quality of a product is the (minimum) loss imparted by the product to the
-society from the time product is shipped" (Bryne and Taguchi, 1986). This
-economic loss is associated with losses due to rework, waste of resources d uring
-manufacture, warranty costs, customer complaints and dissatisfaction, time and
-money spent by customers on failing products, and eventual loss of market share.
-
-Figure-1 illustrates the loss function and how it relates to the specification
-limits. Presented at the 1991 Annual Conference of the International Society of
-Parametric Analysts. - 2 - LSL USL LOSS $ TARGET Figure-1; The Quadratic Loss
-Function When a critical quality characteristic deviates from the target value,
-it causes a loss. In other words, variation from target is the antithesis of
-quality. Quality simply means no variability or very little variation from
-target performance (Di Lorenzo, 1990). An examination of the loss function shows
-that variability reduction or quality improvement drives cost down. Lowest cost
-can only be achieved at zero variability from target. Continuously pursuing
-variability reduction from the target value in critical quality characteristics
-is the key to achieve high quality and reduce cost. Taguchi's quadratic loss
-function is the first operational joining of cost of quality and variability of
-product that allows design engineers to actually calculate the optimum design
-based on cost analysis and experimentation with the design (Teicholz, 1987).
-
-Confirmation is a crucial notion when using Taguchi. Confirmation runs are needed
-in order to validate analysis success or identify problems with the experiment.
-
-Advantages
 * Orthogonal arrays reduce number of exprimental runs
 * Simple calculations
 * Enabled effect of control and noise factor variation to be optimised
 
-Limitations
+Limitations:
+
 * Does not deal well with interactions
 * Not suited to multi-characteristic optimisation
 * Large number of runs when using noise arrays
@@ -474,18 +517,18 @@ contextualise the DoE approach:
 
 * **Factors** represent the inputs to the process: These can be stipulated as either controllable or uncontrollable variables. In the cake-baking process example these would correspond to the oven and ingredients typically.
 * **Levels** represent the settings of each factors. Typical examples of this in the cake-baking process would be the oven temperature and the ingredient amounts included.
-* **Response** represent the output of the experiment. In the simplistic case of baking a cake these responses could manifest themselves in the form of the taste, consistency and the appearance of the cake. These responses are ultimately affected by the level settings of each factor.
+* **Responses** represent the output of the experiment. In the simplistic case of baking a cake these responses could manifest themselves in the form of the taste, consistency and the appearance of the cake. These responses are ultimately affected by the level settings of each factor.
 
-The figure below presents the typical DoE approach to baking a cake,
+**Figure 10** presents the typical DoE approach to baking a cake,
 highlighting the factors, levels and typical responses.
-
 
 ![](images/DesignOfExperiments.png "Design of Experiments Cake Baking Process")
 
+<center>**Figure 10**: An example of a DoE approach to baking a cake.</center>
 
 The rationale supporting the cake baking DoE approach is as follows:
 
-* **Comparing ALternatives** - We may want to compare the results from two different types of flour, if it turned out that flour types caused indifferent values, we could purchase from the low cost supplier.
+* **Comparing Alternatives** - We may want to compare the results from two different types of flour, if it turned out that flour types produced similar results, we could purchase from the low cost supplier.
 * **Significant Control Factors** - We may want to determine what the significant factors are.
 * **Optimal Process Output** - Enables determination of the optimal set of factors and corresponding level  to achieve the exact taste and consistency.
 * **Reducing Variability** - Can the recipe be changed slightly without detriment to the responses.
@@ -494,12 +537,12 @@ The rationale supporting the cake baking DoE approach is as follows:
 The pertinent benefits of the DoE approach are as follows:
 
 1. Quick, economical and efficient method to identify most significant input
-factors
+factors.
 2. Simultaneous trials with multiple control factors instead of one variable at a
 time.
-3. Gives interaction effects of control factors / input factors.
-4. Less number of trials required to get process insight.
-5. Impact of control factors on response can be easily measured.
+3. Gives interaction effects of control factors.
+4. Fewer simulations required to get process insight.
+5. Factor effects can be easily measured.
 6. Explore relationship of response and control factors.
 7. Cheaper than reducing fabrication or simulation bottlenecks.
 
@@ -517,10 +560,10 @@ Quality Management: an Industrial Experience, 2000). This approach can be split 
 the following four steps:
 
 * Planning: involves the reviewing of data and information, establishing and documenting
-action plans and their deployment in their specific areas
-* Do: involves the execution of the plans
+action plans and their deployment in their specific areas.
+* Do: involves the execution of the plans.
 * Check: involves performing reviews in their specific areas, integrating leadership and lower
-level departments
+level departments.
 * Act: involves implementing any system changes and the fulfillment of the goals, following
 the reviews.
 
@@ -550,5 +593,3 @@ Sha'Ri Mohd Yusof, Elaine Aspinwall, 2000
 <http://www.bsigroup.com/en-GB/iso-9001-quality-management/case-studies>
 * The role of software process improvement into total quality management: an industrial experience;
 R. L. Della Volpe, 2000
-Taguchi Orthogonal Arrays:
-<http://www.york.ac.uk/depts/maths/tables/orthogonal.htm> 

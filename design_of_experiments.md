@@ -19,18 +19,18 @@ contextualise the DoE approach:
 
 * **Factors** represent the inputs to the process: These can be stipulated as either controllable or uncontrollable variables. In the cake-baking process example these would correspond to the oven and ingredients typically.
 * **Levels** represent the settings of each factors. Typical examples of this in the cake-baking process would be the oven temperature and the ingredient amounts included.
-* **Response** represent the output of the experiment. In the simplistic case of baking a cake these responses could manifest themselves in the form of the taste, consistency and the appearance of the cake. These responses are ultimately affected by the level settings of each factor.
+* **Responses** represent the output of the experiment. In the simplistic case of baking a cake these responses could manifest themselves in the form of the taste, consistency and the appearance of the cake. These responses are ultimately affected by the level settings of each factor.
 
-The figure below presents the typical DoE approach to baking a cake,
+**Figure 10** presents the typical DoE approach to baking a cake,
 highlighting the factors, levels and typical responses.
-
 
 ![](images/DesignOfExperiments.png "Design of Experiments Cake Baking Process")
 
+<center>**Figure 10**: An example of a DoE approach to baking a cake.</center>
 
 The rationale supporting the cake baking DoE approach is as follows:
 
-* **Comparing ALternatives** - We may want to compare the results from two different types of flour, if it turned out that flour types caused indifferent values, we could purchase from the low cost supplier.
+* **Comparing Alternatives** - We may want to compare the results from two different types of flour, if it turned out that flour types produced similar results, we could purchase from the low cost supplier.
 * **Significant Control Factors** - We may want to determine what the significant factors are.
 * **Optimal Process Output** - Enables determination of the optimal set of factors and corresponding level  to achieve the exact taste and consistency.
 * **Reducing Variability** - Can the recipe be changed slightly without detriment to the responses.
@@ -39,11 +39,11 @@ The rationale supporting the cake baking DoE approach is as follows:
 The pertinent benefits of the DoE approach are as follows:
 
 1. Quick, economical and efficient method to identify most significant input
-factors
+factors.
 2. Simultaneous trials with multiple control factors instead of one variable at a
 time.
-3. Gives interaction effects of control factors / input factors.
-4. Less number of trials required to get process insight.
-5. Impact of control factors on response can be easily measured.
+3. Gives interaction effects of control factors.
+4. Fewer simulations required to get process insight.
+5. Factor effects can be easily measured.
 6. Explore relationship of response and control factors.
 7. Cheaper than reducing fabrication or simulation bottlenecks.
