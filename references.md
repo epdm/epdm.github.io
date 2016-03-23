@@ -20,3 +20,5 @@ Sha'Ri Mohd Yusof, Elaine Aspinwall, 2000
 <http://www.emeraldinsight.com/doi/pdfplus/10.1108/09544789610125333>
 * DoE barriers,
 <http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846>
+* ISO 9000 Case Studies,
+<http://www.bsigroup.com/en-GB/iso-9001-quality-management/case-studies>

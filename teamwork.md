@@ -8,29 +8,17 @@ Teamwork should encompass the following:
 * Design
 * Redesign
 
-Teamwork is someting that requires training.
+Teamwork is someting that requires training. Product owners should not delegate and
+control every aspect, as this can stifle teamwork and involvement. Constant improvement
+is the responsibility of managers. Most causes of low quality and productivity are due to
+issues at this level. An internal consultant can be hired to reslove teamwork issues.
 
-Product owners should not delegate and control every aspect, as this can stifle
-teamwork and involvement.
-
-Constant improvement is the responsibility of managers. Most causes of low
-quality and productivity are due to issues at this level.
-
-* Can work with an internal consultant.
-* Partnering concept requires a new corporate culture valuing participative
-management and teamwork. Ford boosted productivity by 28% in this way.
-
-Related aspects:
+Aspects related to Teamwork involve:
 
 * Collaboration
-* Communication, including inter-department
+* Communication, (intra or inter departmental)
 * Involvement
 * Training teamwork, along with tools and techniques of quality control, and
 philosophy of quality culture
-
-Contrast to:
-
-* Hierarchical management
-* Individual performance evaluations
 
 ![](images/teamwork-1.png "Kondo Pillars")

@@ -31,8 +31,8 @@ examples of which are presented below.
 * The 5 M's (used in manufacturing industry):
     - Machine (technology)
     - Method (process)
-    - Material (Includes Raw Material, Consumables and Information.),
-    - Man Power (physical work)/Mind Power
+    - Material (Includes Raw Material, Consumables and Information)
+    - Man/mind Power (physical work)
     - Measurement (Inspection)
 
 * The 8 P's (primarily used in service marketing industry):
@@ -43,7 +43,7 @@ examples of which are presented below.
     - People/personnel
     - Process
     - Physical Evidence
-    - Publicity.
+    - Publicity
 
 * The 4 S's (used in service industry):
     - Surroundings

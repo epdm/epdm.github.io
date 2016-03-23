@@ -47,10 +47,10 @@
 <img src="images/iron_triangle.jpg" title="The Iron Triangle" />
 
 </div>
-<p>The relationship between the three constraints means that management staff end up having to make a choice between two out of the three of them - in other words - &quot;Pick and two&quot;. This usually ends up with the three following options:</p>
+<p>The relationship between the three constraints means that management staff end up having to make a choice between two out of the three of them; in other words, &quot;Pick any two&quot;. This usually ends up with the three following options:</p>
 <ul>
 <li>Designing a product to a high standard with a low time to market, at the cost of being expensive</li>
-<li>Designing a product quickly and at a low cost at the expensive of the quality of the product</li>
+<li>Designing a product quickly and at a low cost, at the expense of the product quality</li>
 <li>Designing a product to a high standard and at a low cost, but taking a long time to market.</li>
 </ul>
 <h2 id="iso-9000">ISO 9000</h2>
@@ -65,7 +65,7 @@
 <li>Factual approach to decision making</li>
 <li>Mutually beneficial supplier relationships</li>
 </ol>
-<p>Global adoption of the ISO 9000 standard is growing annually - the number of global ISO certified organisations recorded in the world by the end of 2014 was 1,138,155, up from 409,421 by the end of 2000.The reason for the global adoption can be attributed to a number of the following reasons:</p>
+<p>Global adoption of the ISO 9000 standard is growing annually - the number of global ISO certified organisations recorded in the world by the end of 2014 was 1,138,155, up from 409,421 by the end of 2000. The reason for the global adoption can be attributed to a number of the following reasons:</p>
 <ol style="list-style-type: decimal">
 <li>Creates a more efficient, effective operation</li>
 <li>Increases customer satisfaction and retention</li>
@@ -77,7 +77,7 @@
 <li>Reduces waste and increases productivity</li>
 <li>Common tool for standardization</li>
 </ol>
-<p>A range of <a href="http://www.bsigroup.com/en-GB/iso-9001-quality-management/case-studies/">Case Studies</a> can be viewed to support the claims made in the current section.</p>
+<p>A range of Case Studies (ISO 9000 Case Studies, 2016) can be viewed to support the claims made.</p>
 <h2 id="check-sheets">Check Sheets</h2>
 <p>A check sheet is a form used to collect data in real time at the location where the data is generated. A simple example of a check sheet is presented below.</p>
 <div class="figure">
@@ -86,22 +86,26 @@
 </div>
 <p>The pertinent advantages of utilising check sheets for gathering data are as follows:</p>
 <ol style="list-style-type: decimal">
-<li>A quick, very easy and efficient means for recording desired information.</li>
+<li>They are a quick, very easy and efficient means for recording desired information.</li>
 <li>Information gathered can be either qualitative or quantitative.</li>
 </ol>
 <p>Check sheets are generally be used to:</p>
 <ol style="list-style-type: decimal">
 <li>Quantify defects by type, location, and cause (e.g. from a machine or worker)</li>
 <li>Keep track of the completion of steps in a multi-step procedure (i.e. be used as a checklist)</li>
-<li>Check the shape of the probability distribution of a process (Figure 1)</li>
+<li>Check the shape of the probability distribution of a process.</li>
 </ol>
 <h2 id="pareto">Pareto</h2>
 <p>The Pareto principle (also known as the 80 - 20 rule, the law of the vital few, and the principle of factor sparsity) states that, for many events, roughly 80% of the effects come from 20% of the causes. The term 80 - 20 is only a shorthand for the general principle at work. In individual cases, the distribution could just as well be, say, 80 - 10 or 80 -30. There is no need for the two numbers to add up to the number 100, as they are measures of different things. A simple example of a pareto chart is presented below.</p>
-<p>Adding up to 100 leads to a nice symmetry. For example, if 80% of effects come from the top 20% of sources, then the remaining 20% of effects come from the lower 80% of sources. This is called the &quot;joint ratio&quot;, and can be used to measure the degree of imbalance: a joint ratio of 96:4 is very imbalanced, 80:20 is significantly imbalanced, 70:30 is moderately imbalanced (Gini index: 40%), and 55:45is just slightly imbalanced.</p>
+<div class="figure">
+<img src="images/pareto_chart.jpg" title="Pareto Chart" />
+
+</div>
+<p>Adding up to 100 leads to a nice symmetry. For example, if 80% of effects come from the top 20% of sources, then the remaining 20% of effects come from the lower 80% of sources. This is called the &quot;joint ratio&quot;, and can be used to measure the degree of imbalance: a joint ratio of 96:4 is very imbalanced, 80:20 is significantly imbalanced, 70:30 is moderately imbalanced (Gini index: 40%), and 55:45 is just slightly imbalanced.</p>
 <p>This principle is particularly prominent in the field of Software Engineering, as highlighted by the following examples:</p>
 <p>Microsoft noted that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in a given system would be eliminated.</p>
 <p>In load testing, it is common practice to estimate that 80% of the traffic occurs during 20% of the time.</p>
-<p>In software engineering, Lowell Arthur expressed a corollary principle: &quot;20 percent of the code has 80 percent of the errors. Find them, fix them!&quot;</p>
+<p>In Software Engineering, Lowell Arthur expressed a corollary principle: &quot;20 percent of the code has 80 percent of the errors. Find them, fix them!&quot;</p>
 <h2 id="fishbone-ishikawa-diagrams">Fishbone Ishikawa Diagrams</h2>
 <p>Ishikawa diagrams (also called fishbone diagrams) are causal diagrams that show the causes of a specific event. Common uses of the Ishikawa diagram are product design and quality defect prevention to identify potential factors causing an overall effect. Each cause or reason for imperfection is a source of variation. Causes are usually grouped into major categories to identify these sources of variation. The categories typically include:</p>
 <ul>
@@ -123,8 +127,8 @@
 <ul>
 <li>Machine (technology)</li>
 <li>Method (process)</li>
-<li>Material (Includes Raw Material, Consumables and Information.),</li>
-<li>Man Power (physical work)/Mind Power</li>
+<li>Material (Includes Raw Material, Consumables and Information)</li>
+<li>Man/mind Power (physical work)</li>
 <li>Measurement (Inspection)</li>
 </ul></li>
 <li>The 8 P's (primarily used in service marketing industry):
@@ -136,7 +140,7 @@
 <li>People/personnel</li>
 <li>Process</li>
 <li>Physical Evidence</li>
-<li>Publicity.</li>
+<li>Publicity</li>
 </ul></li>
 <li>The 4 S's (used in service industry):
 <ul>
@@ -147,9 +151,12 @@
 </ul></li>
 </ul>
 <h2 id="cause-screening">Cause Screening</h2>
-<p>The screening tools eliminate brainstorming and hypothesizing at the beginning of a project. The project team first makes non-invasive observations of the operation. They ignore everything in the middle, and only compare examples of the very best and very worst outputs, searching for consistent differences. The guidelines are simple:</p>
-<p>Any factor that is consistently different when the best and worst outputs occur is deemed critical, and the team pursues it.</p>
-<p>Any factor that is not consistently different is deemed non-critical, and the team ignores it.</p>
+<p>Screening can be used to eliminate brainstorming and hypothesizing at the beginning of a project. The project team first makes non-invasive observations of the operation. They ignore everything in the middle, and only compare examples of the very best and very worst outputs, searching for consistent differences.</p>
+<p>The guidelines are simple:</p>
+<ul>
+<li>Any factor that is consistently different when the best and worst outputs occur is deemed critical, and the team pursues it.</li>
+<li>Any factor that is not consistently different is deemed non-critical, and the team ignores it.</li>
+</ul>
 <p>With this screening process, practitioners non-invasively observe and review data from the existing operation, and are usually able to separate the critical and non-critical factors more quickly than with the traditional trial-and-error approach.</p>
 <h2 id="teamwork">Teamwork</h2>
 <p>Teamwork should encompass the following:</p>
@@ -158,32 +165,23 @@
 <li>Design</li>
 <li>Redesign</li>
 </ul>
-<p>Teamwork is someting that requires training.</p>
-<p>Product owners should not delegate and control every aspect, as this can stifle teamwork and involvement.</p>
-<p>Constant improvement is the responsibility of managers. Most causes of low quality and productivity are due to issues at this level.</p>
-<ul>
-<li>Can work with an internal consultant.</li>
-<li>Partnering concept requires a new corporate culture valuing participative management and teamwork. Ford boosted productivity by 28% in this way.</li>
-</ul>
-<p>Related aspects:</p>
+<p>Teamwork is someting that requires training. Product owners should not delegate and control every aspect, as this can stifle teamwork and involvement. Constant improvement is the responsibility of managers. Most causes of low quality and productivity are due to issues at this level. An internal consultant can be hired to reslove teamwork issues.</p>
+<p>Aspects related to Teamwork involve:</p>
 <ul>
 <li>Collaboration</li>
-<li>Communication, including inter-department</li>
+<li>Communication, (intra or inter departmental)</li>
 <li>Involvement</li>
 <li>Training teamwork, along with tools and techniques of quality control, and philosophy of quality culture</li>
-</ul>
-<p>Contrast to:</p>
-<ul>
-<li>Hierarchical management</li>
-<li>Individual performance evaluations</li>
 </ul>
 <div class="figure">
 <img src="images/teamwork-1.png" title="Kondo Pillars" />
 
 </div>
 <h2 id="multi-voting">Multi-voting</h2>
-<p>Allow a group to narrow down a list of options into a manageable size for further consideration. Useful for initiating a selection process after brainstorming.</p>
+<p>Allow a group to narrow down a list of options into a manageable size for further consideration. Useful for initiating a selection process after brainstorming. Multivoting is a group decision-making technique used to reduce a long list of items to a manageable number by means of a structured series of votes. The result is a short list identifying what is important to the team.</p>
 <p>Sometimes referred to as <code>N/3</code> voting - for N options, each member of the group selects <code>N/3</code> of the options as a means for partial-ordering the options by importance.</p>
+<p>Multivoting Procedures * Step 1 - Work from a large list * Step 2 - Assign letter to each item * Step 3 - Vote * Step 4 - Tally the votes * Step 5 - Repeat</p>
+<p>Multivoting Rule of Thumb * Number on Team - Eliminate items with * 5 or fewer - 0, 1, or 2 votes * 6 to 15 - 3 or fewer votes * more than 15 - 4 or fewer votes</p>
 <h2 id="statistical-process-control">Statistical Process Control</h2>
 <p>Initially developed during the second world war. Uses a process of (physical) inspection to separate good products from bad.</p>
 <ul>
@@ -209,15 +207,30 @@
 </ol>
 <p>TAGUCHI ON QUALITY: Quality has been defined by many as; &quot;being within specifications,&quot; &quot;zero defects,&quot; or &quot;customer satisfaction.&quot; However, these definitions do not offer a method of obtaining quality or a means of relating quality to cost. Taguchi proposes a holistic view of quality which relates quality to cost, not just to the manufacturer at the time of production, but to the customer and society as a whole (Phadke, 1989). Taguchi defines quality as, &quot;The quality of a product is the (minimum) loss imparted by the product to the society from the time product is shipped&quot; (Bryne and Taguchi, 1986). This economic loss is associated with losses due to rework, waste of resources during manufacture, warranty costs, customer complaints and dissatisfaction, time and money spent by customers on failing products, and eventual loss of market share.</p>
 <p>Figure-1 illustrates the loss function and how it relates to the specification limits. Presented at the 1991 Annual Conference of the International Society of Parametric Analysts. - 2 - LSL USL LOSS $ TARGET Figure-1; The Quadratic Loss Function When a critical quality characteristic deviates from the target value, it causes a loss. In other words, variation from target is the antithesis of quality. Quality simply means no variability or very little variation from target performance (Di Lorenzo, 1990). An examination of the loss function shows that variability reduction or quality improvement drives cost down. Lowest cost can only be achieved at zero variability from target. Continuously pursuing variability reduction from the target value in critical quality characteristics is the key to achieve high quality and reduce cost. Taguchi's quadratic loss function is the first operational joining of cost of quality and variability of product that allows design engineers to actually calculate the optimum design based on cost analysis and experimentation with the design (Teicholz, 1987).</p>
+<p>Confirmation is a crucial notion when using Taguchi. Confirmation runs are needed in order to validate analysis success or identify problems with the experiment.</p>
+<p>Advantages * Orthogonal arrays reduce number of exprimental runs * Simple calculations * Enabled effect of control and noise factor variation to be optimised</p>
+<p>Limitations * Does not deal well with interactions * Not suited to multi-characteristic optimisation * Large number of runs when using noise arrays</p>
 <h2 id="design-of-experiments">Design of Experiments</h2>
-<p>A method used to maximize the information obtained from experimental data through very few trials or runs.</p>
+<p>Design of Experiments (DoE) represents a systematic method to determine the relationship between factors and their interactions to assess how these are affecting the output of that process. It is essentially an approach to determining 'cause and effect' relationships. The DoE method is used to maximize the information obtained from experimental data through very few trials or runs. Four approaches to DoE are listed below:</p>
 <ol style="list-style-type: decimal">
 <li>Full factorial</li>
 <li>Fractional factorial</li>
 <li>Taguchi Methods</li>
 <li>RSM (Response Surface Methodology)</li>
 </ol>
-<p>Benefits of DoE:</p>
+<p>There are typically three components which comprise experimental design. These are detailed below. We take a simplistic example of a cake-baking process to contextualise the DoE approach:</p>
+<ul>
+<li><strong>Factors</strong> represent the inputs to the process: These can be stipulated as either controllable or uncontrollable variables. In the cake-baking process example these would correspond to the oven and ingredients typically.</li>
+<li><strong>Levels</strong> represent the settings of each factors. Typical examples of this in the cake-baking process would be the oven temperature and the ingredient amounts included.</li>
+<li><strong>Response</strong> represent the output of the experiment. In the simplistic case of baking a cake these responses could manifest themselves in the form of the taste, consistency and the appearance of the cake. These responses are ultimately affected by the level settings of each factor.</li>
+</ul>
+<p>The figure below presents the typical DoE approach to baking a cake, highlighting the factors, levels and typical responses.</p>
+<div class="figure">
+<img src="images/DesignOfExperiments.png" title="Design of Experiments Cake Baking Process" />
+
+</div>
+<p>The rationale supporting the cake baking DoE approach is as follows: * <strong>Comparing ALternatives</strong> - We may want to compare the results from two different types of flour, if it turned out that flour types caused indifferent values, we could purchase from the low cost supplier. * <strong>Significant Control Factors</strong> - We may want to determine what the significant factors are. * <strong>Optimal Process Output</strong> - Enables determination of the optimal set of factors and corresponding level to achieve the exact taste and consistency. * <strong>Reducing Variability</strong> - Can the recipe be changed slightly without detriment to the responses. * <strong>Improving Process Robustness</strong> - Improving the fitness for use under varying conditions. For example, can the factors and their levels (recipe) be modified such that cake will come out nearly the same, irrespective of what oven is used.</p>
+<p>The pertinent benefits of the DoE approach are as follows:</p>
 <ol style="list-style-type: decimal">
 <li>Quick, economical and efficient method to identify most significant input factors</li>
 <li>Simultaneous trials with multiple control factors instead of one variable at a time.</li>
@@ -225,18 +238,19 @@
 <li>Less number of trials required to get process insight.</li>
 <li>Impact of control factors on response can be easily measured.</li>
 <li>Explore relationship of response and control factors.</li>
+<li>Cheaper than reducing fabrication or simulation bottlenecks.</li>
 </ol>
 <h2 id="software-improvement-tools">Software Improvement Tools</h2>
-<p>Among other uses, software improvement tools can simplify TQM tasks, for example by generating legible, powerful diagrams. The following can all be improved by the use of software:</p>
+<p>Among other uses, software improvement tools can simplify TQM tasks, for example by generating legible, powerful diagrams. The following seven tools can all be improved by the use of software:</p>
 <ul>
 <li>Cause and Effect Diagrams</li>
 <li>Checksheets</li>
 <li>Control Charts</li>
-<li>Graphss (Run Charts)</li>
+<li>Graphs (Run Charts)</li>
 <li>Histograms</li>
 <li>Pareto Charts</li>
 <li>Scatter Diagrams</li>
-<li>Teamwork systems like Pathmaker, JIRA, and Trello.</li>
+<li>Teamwork systems such as Pathmaker, JIRA, and Trello.</li>
 </ul>
 <h2 id="references">References</h2>
 <ul>
@@ -250,4 +264,5 @@
 <li>Taguchi, Teicholz, <a href="http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20040121019.pdf" class="uri">http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20040121019.pdf</a></li>
 <li>TQM Software Tools, <a href="http://www.emeraldinsight.com/doi/pdfplus/10.1108/09544789610125333" class="uri">http://www.emeraldinsight.com/doi/pdfplus/10.1108/09544789610125333</a></li>
 <li>DoE barriers, <a href="http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846" class="uri">http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846</a></li>
+<li>ISO 9000 Case Studies, <a href="http://www.bsigroup.com/en-GB/iso-9001-quality-management/case-studies" class="uri">http://www.bsigroup.com/en-GB/iso-9001-quality-management/case-studies</a></li>
 </ul>

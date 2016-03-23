@@ -51,3 +51,16 @@ is the key to achieve high quality and reduce cost. Taguchi's quadratic loss
 function is the first operational joining of cost of quality and variability of
 product that allows design engineers to actually calculate the optimum design
 based on cost analysis and experimentation with the design (Teicholz, 1987).
+
+Confirmation is a crucial notion when using Taguchi. Confirmation runs are needed
+in order to validate analysis success or identify problems with the experiment.
+
+Advantages
+* Orthogonal arrays reduce number of exprimental runs
+* Simple calculations
+* Enabled effect of control and noise factor variation to be optimised
+
+Limitations
+* Does not deal well with interactions
+* Not suited to multi-characteristic optimisation
+* Large number of runs when using noise arrays

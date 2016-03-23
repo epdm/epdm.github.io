@@ -130,12 +130,12 @@ what is known as the "Iron Triangle", depicted in the figure below.
 ![](images/iron_triangle.jpg "The Iron Triangle")
 
 The relationship between the three constraints means that management staff
-end up having to make a choice between two out of the three of them - in
-other words - "Pick and two". This usually ends up with the three following
+end up having to make a choice between two out of the three of them; in
+other words, "Pick any two". This usually ends up with the three following
 options:
 
 * Designing a product to a high standard with a low time to market, at the cost of being expensive
-* Designing a product quickly and at a low cost at the expensive of the quality of the product
+* Designing a product quickly and at a low cost, at the expense of the product quality
 * Designing a product to a high standard and at a low cost, but taking a long time to market.
 
 ISO 9000
@@ -158,7 +158,7 @@ following eight quality management principles:
 
 Global adoption of the ISO 9000 standard is growing annually - the number of
 global ISO certified organisations recorded in the world by the end of 2014 was
-1,138,155, up from 409,421 by the end of 2000.The reason for the global adoption
+1,138,155, up from 409,421 by the end of 2000. The reason for the global adoption
 can be attributed to a number of the following reasons:
 
 1. Creates a more efficient, effective operation
@@ -171,32 +171,27 @@ can be attributed to a number of the following reasons:
 8. Reduces waste and increases productivity
 9. Common tool for standardization
 
-A range of [Case
-Studies](http://www.bsigroup.com/en-GB/iso-9001-quality-management/case-studies/)
-can be viewed to support the claims made in the current section.
-
-
+A range of Case Studies (ISO 9000 Case Studies, 2016) can be viewed to support the
+claims made.
 
 Check Sheets
 ------------
 
-A check sheet is a form used to collect data
-in real time at the location where the data is generated. A simple example of a
-check sheet is presented below.
+A check sheet is a form used to collect data in real time at the location
+where the data is generated. A simple example of a check sheet is presented below.
 
 ![](images/CheckSheet1.png "Simple Check Sheet")
 
 The pertinent advantages of utilising check sheets for gathering data are as follows:
 
-1. A quick, very easy and efficient means for recording desired information.
+1. They are a quick, very easy and efficient means for recording desired information.
 2. Information gathered can be either qualitative or quantitative.
 
 Check sheets are generally be used to:
 
 1. Quantify defects by type, location, and cause (e.g. from a machine or worker)
 2. Keep track of the completion of steps in a multi-step procedure (i.e. be used as a checklist)
-3. Check the shape of the probability distribution of a process (Figure 1)
-
+3. Check the shape of the probability distribution of a process.
 
 Pareto
 ------
@@ -209,21 +204,26 @@ just as well be, say, 80 - 10 or 80 -30. There is no need for the two numbers to
 add up to the number 100, as they are measures of different things. A simple
 example of a pareto chart is presented below.
 
+![](images/pareto_chart.jpg "Pareto Chart")
+
 Adding up to 100 leads to a nice symmetry. For example, if 80% of effects come
 from the top 20% of sources, then the remaining 20% of effects come from the
 lower 80% of sources. This is called the "joint ratio", and can be used to
 measure the degree of imbalance: a joint ratio of 96:4 is very imbalanced, 80:20
-is significantly imbalanced, 70:30 is moderately imbalanced (Gini index: 40%), and 55:45is just slightly imbalanced.
+is significantly imbalanced, 70:30 is moderately imbalanced (Gini index: 40%), and
+55:45 is just slightly imbalanced.
 
 This principle is particularly prominent in the field of Software Engineering,
 as highlighted by the following examples:
 
-Microsoft noted that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in a given system would be eliminated.
+Microsoft noted that by fixing the top 20% of the most-reported bugs, 80% of the
+related errors and crashes in a given system would be eliminated.
 
-In load testing, it is common practice to estimate that 80% of the traffic occurs during 20% of the time.
+In load testing, it is common practice to estimate that 80% of the traffic occurs
+during 20% of the time.
 
-In software engineering, Lowell Arthur expressed a corollary principle: "20 percent of the code has 80 percent of the errors. Find them, fix them!"
-
+In Software Engineering, Lowell Arthur expressed a corollary principle: "20 percent
+of the code has 80 percent of the errors. Find them, fix them!"
 
 Fishbone Ishikawa Diagrams
 --------------------------
@@ -257,8 +257,8 @@ examples of which are presented below.
 * The 5 M's (used in manufacturing industry):
     - Machine (technology)
     - Method (process)
-    - Material (Includes Raw Material, Consumables and Information.),
-    - Man Power (physical work)/Mind Power
+    - Material (Includes Raw Material, Consumables and Information)
+    - Man/mind Power (physical work)
     - Measurement (Inspection)
 
 * The 8 P's (primarily used in service marketing industry):
@@ -269,7 +269,7 @@ examples of which are presented below.
     - People/personnel
     - Process
     - Physical Evidence
-    - Publicity.
+    - Publicity
 
 * The 4 S's (used in service industry):
     - Surroundings
@@ -283,23 +283,22 @@ examples of which are presented below.
 Cause Screening
 ---------------
 
-The screening tools eliminate brainstorming and hypothesizing at the beginning
+Screening can be used to eliminate brainstorming and hypothesizing at the beginning
 of a project. The project team first makes non-invasive observations of the
 operation. They ignore everything in the middle, and only compare examples of
-the very best and very worst outputs, searching for consistent differences. The
-guidelines are simple:
+the very best and very worst outputs, searching for consistent differences.
 
-Any factor that is consistently different when the best and worst outputs occur
-is deemed critical, and the team pursues it.
+The guidelines are simple:
 
-Any factor that is not consistently different is deemed non-critical, and the
-team ignores it.
+* Any factor that is consistently different when the best and
+worst outputs occur is deemed critical, and the team pursues it.
+* Any factor that is not consistently different is deemed non-critical,
+and the team ignores it.
 
 With this screening process, practitioners non-invasively observe and review
 data from the existing operation, and are usually able to separate the critical
 and non-critical factors more quickly than with the traditional trial-and-error
 approach.
-
 
 Teamwork
 --------
@@ -310,30 +309,18 @@ Teamwork should encompass the following:
 * Design
 * Redesign
 
-Teamwork is someting that requires training.
+Teamwork is someting that requires training. Product owners should not delegate and
+control every aspect, as this can stifle teamwork and involvement. Constant improvement
+is the responsibility of managers. Most causes of low quality and productivity are due to
+issues at this level. An internal consultant can be hired to reslove teamwork issues.
 
-Product owners should not delegate and control every aspect, as this can stifle
-teamwork and involvement.
-
-Constant improvement is the responsibility of managers. Most causes of low
-quality and productivity are due to issues at this level.
-
-* Can work with an internal consultant.
-* Partnering concept requires a new corporate culture valuing participative
-management and teamwork. Ford boosted productivity by 28% in this way.
-
-Related aspects:
+Aspects related to Teamwork involve:
 
 * Collaboration
-* Communication, including inter-department
+* Communication, (intra or inter departmental)
 * Involvement
 * Training teamwork, along with tools and techniques of quality control, and
 philosophy of quality culture
-
-Contrast to:
-
-* Hierarchical management
-* Individual performance evaluations
 
 ![](images/teamwork-1.png "Kondo Pillars")
 
@@ -342,11 +329,24 @@ Multi-voting
 
 Allow a group to narrow down a list of options into a manageable size for
 further consideration. Useful for initiating a selection process after
-brainstorming.
+brainstorming. Multivoting is a group decision-making technique used to reduce a long list of items to a manageable number by means of a structured series of votes. The result is a short list identifying what is important to the team.
 
 Sometimes referred to as `N/3` voting - for N options, each member of the group
 selects `N/3` of the options as a means for partial-ordering the options by
 importance.
+
+Multivoting Procedures
+* Step 1 - Work from a large list
+* Step 2 - Assign letter to each item
+* Step 3 - Vote
+* Step 4 - Tally the votes
+* Step 5 - Repeat
+
+Multivoting Rule of Thumb
+* Number on Team - Eliminate items with
+* 5 or fewer  - 0, 1, or 2 votes
+* 6 to 15  - 3 or fewer votes
+* more than 15 - 4 or fewer votes
 
 Statistical Process Control
 ---------------------------
@@ -422,18 +422,56 @@ function is the first operational joining of cost of quality and variability of
 product that allows design engineers to actually calculate the optimum design
 based on cost analysis and experimentation with the design (Teicholz, 1987).
 
+Confirmation is a crucial notion when using Taguchi. Confirmation runs are needed
+in order to validate analysis success or identify problems with the experiment.
+
+Advantages
+* Orthogonal arrays reduce number of exprimental runs
+* Simple calculations
+* Enabled effect of control and noise factor variation to be optimised
+
+Limitations
+* Does not deal well with interactions
+* Not suited to multi-characteristic optimisation
+* Large number of runs when using noise arrays
+
 Design of Experiments
 ---------------------
 
-A method used to maximize the information obtained from experimental data
-through very few trials or runs.
+Design of Experiments (DoE) represents a systematic method to determine the
+relationship between factors and their interactions to assess how these are
+affecting the output of that process. It is essentially an approach to
+determining 'cause and effect' relationships. The DoE method is used to maximize the information obtained from experimental data
+through very few trials or runs. Four approaches to DoE are listed below:
 
 1. Full factorial
 2. Fractional factorial
 3. Taguchi Methods
 4. RSM (Response Surface Methodology)
 
-Benefits of DoE:
+There are typically three components which comprise experimental design. These
+are detailed below. We take a simplistic example of a cake-baking process to
+contextualise the DoE approach:
+
+* **Factors** represent the inputs to the process: These can be stipulated as either controllable or uncontrollable variables. In the cake-baking process example these would correspond to the oven and ingredients typically.
+* **Levels** represent the settings of each factors. Typical examples of this in the cake-baking process would be the oven temperature and the ingredient amounts included.
+* **Response** represent the output of the experiment. In the simplistic case of baking a cake these responses could manifest themselves in the form of the taste, consistency and the appearance of the cake. These responses are ultimately affected by the level settings of each factor.
+
+The figure below presents the typical DoE approach to baking a cake,
+highlighting the factors, levels and typical responses.
+
+
+![](images/DesignOfExperiments.png "Design of Experiments Cake Baking Process")
+
+
+The rationale supporting the cake baking DoE approach is as follows:
+* **Comparing ALternatives** - We may want to compare the results from two different types of flour, if it turned out that flour types caused indifferent values, we could purchase from the low cost supplier.
+* **Significant Control Factors** - We may want to determine what the significant factors are.
+* **Optimal Process Output** - Enables determination of the optimal set of factors and corresponding level  to achieve the exact taste and consistency.
+* **Reducing Variability** - Can the recipe be changed slightly without detriment to the responses.
+* **Improving Process Robustness** - Improving the fitness for use under varying conditions. For example, can the factors and their levels (recipe) be modified such that cake will come out nearly the same, irrespective of what oven is used.
+
+The pertinent benefits of the DoE approach are as follows:
 
 1. Quick, economical and efficient method to identify most significant input
 factors
@@ -443,22 +481,23 @@ time.
 4. Less number of trials required to get process insight.
 5. Impact of control factors on response can be easily measured.
 6. Explore relationship of response and control factors.
+7. Cheaper than reducing fabrication or simulation bottlenecks.
 
 Software Improvement Tools
 --------------------------
 
 Among other uses, software improvement tools can simplify TQM tasks, for
-example by generating legible, powerful diagrams. The following can all be
+example by generating legible, powerful diagrams. The following seven tools can all be
 improved by the use of software:
 
 * Cause and Effect Diagrams
 * Checksheets
 * Control Charts
-* Graphss (Run Charts)
+* Graphs (Run Charts)
 * Histograms
 * Pareto Charts
 * Scatter Diagrams
-* Teamwork systems like Pathmaker, JIRA, and Trello.
+* Teamwork systems such as Pathmaker, JIRA, and Trello.
 
 References
 ----------
@@ -481,3 +520,5 @@ Sha'Ri Mohd Yusof, Elaine Aspinwall, 2000
 <http://www.emeraldinsight.com/doi/pdfplus/10.1108/09544789610125333>
 * DoE barriers,
 <http://www.emeraldinsight.com/doi/pdfplus/10.1108/17542730910995846>
+* ISO 9000 Case Studies,
+<http://www.bsigroup.com/en-GB/iso-9001-quality-management/case-studies>
