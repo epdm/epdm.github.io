@@ -2,7 +2,17 @@
 Taguchi
 -------
 
-<center>test</center>
+The Taguchi approach to Design of Experiments (DoE) necessitates the use of
+orthogonal arrays to implement fractional factorial experiments. Orthogonal in
+this sense essentially states that 
+
+
+A range of Taguchi Orthogonal Arrays is available for reference.
+
+
+
+
+
 
 Taguchi defines quality as the loss imparted by the product to society from the
 time the product is shipped. Quality loss occurs when a product deviates from
@@ -35,7 +45,7 @@ quality to cost, not just to the manufacturer at the time of production, but to
 the customer and society as a whole (Phadke, 1989). Taguchi defines quality as,
 "The quality of a product is the (minimum) loss imparted by the product to the
 society from the time product is shipped" (Bryne and Taguchi, 1986). This
-economic loss is associated with losses due to rework, waste of resources during
+economic loss is associated with losses due to rework, waste of resources d uring
 manufacture, warranty costs, customer complaints and dissatisfaction, time and
 money spent by customers on failing products, and eventual loss of market share.
 

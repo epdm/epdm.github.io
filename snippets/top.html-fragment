@@ -36,21 +36,47 @@
     </div>
     <div class="flat flat-intro">
       <div class="intro">
-        <p>goals of the document
+        <p>
+          Total quality management (TQM) consists of organization-wide efforts
+          to install and make permanent a climate in which an organization
+          continuously improves its ability to deliver high-quality products and
+          services to customers. While there is no widely agreed-upon approach,
+          TQM efforts typically draw heavily on the previously developed tools
+          and techniques of quality control. TQM enjoyed widespread attention
+          during the late 1980s and early 1990s before being overshadowed by ISO
+          9000, Lean manufacturing, and Six Sigma.
+        </p>
 
-          overview of tqm
+        <p>
 
-          explanation for how the doc works, explanation of the quiz
+          This document is meant to introduce the concept of TQM and all
+          submodules that is encapsulates. It is also meant as a reference for
+          TQM teaching.
+        
+        </p>
 
-          explanatiaon youtube video</p>
-      </div>
-    </div>
+        <p>
+          This document is split into sections which each cover a core aspect of
+          TQM.
+        </p>
 
-    <div class="flat flat-youtube">
-      <div class="youtube">
+        <p>
+          At the end of the document is a quiz that can be used for quizzing.
+        </p>
+
+        <p>What follows is a video that introduces videos.</p>
+
+        <p>&nbsp;</p>
+
         <iframe src="https://www.youtube.com/embed/GfbLWHT7vUU"></iframe>
       </div>
     </div>
+
+    <!-- <div class="flat flat-youtube">
+      <div class="youtube">
+        
+      </div>
+    </div> -->
 
     <div class="flat flat-toc">
       <div class="toc">

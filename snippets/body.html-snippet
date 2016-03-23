@@ -46,7 +46,7 @@ product for its parts, which is far enough removed from its nominal value to
 precent the product from fulfilling the physical and functional requirements of
 the customer.
 
-Normal distribution curves are symmetrical about the mean value (μ), with the
+Normal distribution curves (**Figure 1**) are symmetrical about the mean value (μ), with the
 total area under the curve equating to one. If a process is classified as 3
 sigma, 99.7% of outputs are defect free. Mean is the central tendency of the
 process, or the average of all values within the population. The standard
@@ -54,7 +54,7 @@ deviation (σ) is a measure of dispersion or variability.
 
 
 ![](images/Six Sigma.png "Six Sigma")
-
+<center>**Figure 1**: A normal distribution curve, with the standard deviations from the mean marked.</center>
 
 The upper specification limit (USL) and the lower specification limit (LSL) set
 permissible limits for the process variation. For example, the USL and LSL of a
@@ -131,9 +131,10 @@ Impact of Quality on Cycle Time and Cost
 ----------------------------------------
 
 These three project managment constraints are traditionally represented in
-what is known as the "Iron Triangle", depicted in the figure below.
+what is known as the "Iron Triangle", depicted in the **Figure 2**.
 
 ![](images/iron_triangle.jpg "The Iron Triangle")
+<center>**Figure 2**: The Iron Triagle.</center>
 
 The relationship between the three constraints means that management staff
 end up having to make a choice between two out of the three of them; in
@@ -378,7 +379,17 @@ cost of non-conformance.
 Taguchi
 -------
 
-<center>test</center>
+The Taguchi approach to Design of Experiments (DoE) necessitates the use of
+orthogonal arrays to implement fractional factorial experiments. Orthogonal in
+this sense essentially states that 
+
+
+A range of Taguchi Orthogonal Arrays is available for reference.
+
+
+
+
+
 
 Taguchi defines quality as the loss imparted by the product to society from the
 time the product is shipped. Quality loss occurs when a product deviates from
@@ -411,7 +422,7 @@ quality to cost, not just to the manufacturer at the time of production, but to
 the customer and society as a whole (Phadke, 1989). Taguchi defines quality as,
 "The quality of a product is the (minimum) loss imparted by the product to the
 society from the time product is shipped" (Bryne and Taguchi, 1986). This
-economic loss is associated with losses due to rework, waste of resources during
+economic loss is associated with losses due to rework, waste of resources d uring
 manufacture, warranty costs, customer complaints and dissatisfaction, time and
 money spent by customers on failing products, and eventual loss of market share.
 
@@ -539,3 +550,5 @@ Sha'Ri Mohd Yusof, Elaine Aspinwall, 2000
 <http://www.bsigroup.com/en-GB/iso-9001-quality-management/case-studies>
 * The role of software process improvement into total quality management: an industrial experience;
 R. L. Della Volpe, 2000
+Taguchi Orthogonal Arrays:
+<http://www.york.ac.uk/depts/maths/tables/orthogonal.htm> 

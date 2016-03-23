@@ -13,7 +13,7 @@ product for its parts, which is far enough removed from its nominal value to
 precent the product from fulfilling the physical and functional requirements of
 the customer.
 
-Normal distribution curves are symmetrical about the mean value (μ), with the
+Normal distribution curves (**Figure 1**) are symmetrical about the mean value (μ), with the
 total area under the curve equating to one. If a process is classified as 3
 sigma, 99.7% of outputs are defect free. Mean is the central tendency of the
 process, or the average of all values within the population. The standard
@@ -21,7 +21,7 @@ deviation (σ) is a measure of dispersion or variability.
 
 
 ![](images/Six Sigma.png "Six Sigma")
-
+<center>**Figure 1**: A normal distribution curve, with the standard deviations from the mean marked.</center>
 
 The upper specification limit (USL) and the lower specification limit (LSL) set
 permissible limits for the process variation. For example, the USL and LSL of a

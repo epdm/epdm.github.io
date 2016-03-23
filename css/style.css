@@ -36,9 +36,10 @@ h6 {
 
 iframe {
   border: 0;
-  margin: 0;
-  width: 800px;
+  margin: 0 auto;
+  width: 60em;
   height: 600px;
+  display: block;
 }
 
 input {
@@ -105,6 +106,11 @@ select {
   color: #eee;
   line-height: 300%;
   font-size: 0.8em;
+}
+
+.intro p {
+  font-size: 0.9em;
+  margin: 0.75em 5em;
 }
 
 .response {
