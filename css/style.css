@@ -30,6 +30,10 @@ h2 {
   margin: 1em 0 0.5em;
 }
 
+h3 {
+  font-size: 1.2em;
+}
+
 h6 {
   text-align: center;
 }
@@ -118,6 +122,11 @@ td, th {
   color: #eee;
   line-height: 300%;
   font-size: 0.8em;
+}
+
+.highlight {
+  background-color: #FFCD00;
+  padding: 0 0.15em;
 }
 
 .intro p {

@@ -13,10 +13,9 @@ experiments. An example of a process where SPC is applied is manufacturing
 lines. It uses a process of physical inspection to separate good products from
 bad.
 
-A key part of statistical process control is producing contorl charts (**Figure
-7**)
-which can be used for visualising effects of eliminating process issues over
-time.
+A key part of statistical process control is producing control charts (**Figure
+7**) which can be used for visualising effects of eliminating process issues
+over time.
 
 ![](images/quality-control-chart.png "Quality Control Charts")
 
